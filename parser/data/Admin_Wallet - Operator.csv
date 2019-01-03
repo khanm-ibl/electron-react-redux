@@ -1,0 +1,37 @@
+category,function,function_label,function_description,contract,input_name,input_label,input_type,convert_convention,read_only,default_value,input_description,priviledge,action,disable,condition
+Seller Management,createSeller,Create Seller,,SellerManagement,_name,Name,bytes32,,,,,onlyManagerMultiSig,CreateSeller,,
+Seller Management,createSeller,Create Seller,,SellerManagement,_commissionRate,Commission Rate,uint,PERCENT_RATE,,,,onlyManagerMultiSig,CreateSeller,,
+Seller Management,createSeller,Create Seller,,SellerManagement,_withdrawalAddr,Withdrawal Address,address,,,,,onlyManagerMultiSig,CreateSeller,,
+Seller Management,removeSeller,Remove Seller,,SellerManagement,_sellers,Sellers Address,address[],,,,,onlyManagerMultiSig,RemoveSeller,,
+Seller Management,freezeSeller,Freeze Seller,,SellerManagement,_sellers,Sellers Address,address[],,,,,onlyOperatorOrEscrowGroup,FreezeSeller,,
+Seller Management,unfreezeSeller,Unfreeze Seller,,SellerManagement,_sellers,Sellers Address,address[],,,,,onlyOperatorOrEscrowGroup,UnfreezeSeller,,
+Seller Configuration,changeSellerCommissionRate,Change Seller Commission Rate,,SellerManagement,_sellers,Sellers Address,address[],,,,,onlyManagerMultiSig,ChangeSellerCommissionRate,,DRAW_END
+Seller Configuration,changeSellerCommissionRate,Change Seller Commission Rate,,SellerManagement,_commissionRates,Commission Rates,uint128[],PERCENT_RATE,,,,onlyManagerMultiSig,ChangeSellerCommissionRate,,DRAW_END
+Seller Configuration,changeSellerWithdrawalAddr,Change Seller Withdrawal Address,,SellerManagement,_sellers,Sellers Address,address[],,,,,onlyManagerMultiSig,ChangeSellerWithdrawalAddr,,
+Seller Configuration,changeSellerWithdrawalAddr,Change Seller Withdrawal Address,,SellerManagement,_withdrawalAddrs,Withdrawal Address,address[],,,,,onlyManagerMultiSig,ChangeSellerWithdrawalAddr,,
+Seller Configuration,changeSellerName,Change Seller Name,,SellerManagement,_sellers,Sellers Address,address[],,,,,onlyOperatorGroup,ChangeSellerName,,
+Seller Configuration,changeSellerName,Change Seller Name,,SellerManagement,_names,Name,bytes32[],,,,,onlyOperatorGroup,ChangeSellerName,,
+Seller Configuration,changeSellerInfo,Change Seller Info,,SellerManagement,_seller,Sellers Address,address,,,,,onlyManagerMultiSig,ChangeSellerInfo,,DRAW_END
+Seller Configuration,changeSellerInfo,Change Seller Info,,SellerManagement,_name,Name,bytes32,,,,,onlyManagerMultiSig,ChangeSellerInfo,,DRAW_END
+Seller Configuration,changeSellerInfo,Change Seller Info,,SellerManagement,_commissionRates,Commission Rates,uint128,PERCENT_RATE,,,,onlyManagerMultiSig,ChangeSellerInfo,,DRAW_END
+Seller Configuration,changeSellerInfo,Change Seller Info,,SellerManagement,_withdrawalAddr,Withdrawal Address,address,,,,,onlyManagerMultiSig,ChangeSellerInfo,,DRAW_END
+Randao Configuration,setOperator1,Set Operator 1,,RandaoConfig,_operator1,Operator 1 Address,address,,,,,onlyManagerMultiSig,SetOperator1,,
+Randao Configuration,setOperator2,Set Operator 2,,RandaoConfig,_operator2,Operator 2 Address,address,,,,,onlyManagerMultiSig,SetOperator2,,
+Randao Configuration,setBountyKeeper,Set Bounty Keeper,,RandaoConfig,_bountyKeeper,Bounty Keeper Address,address,,,,,onlyManagerMultiSig,SetBountyKeeper,,
+Contracts Management,changePrivilegeContract,Change Privilege Contract,,Privilege,_privilege,Privilege Address,address,,,,,onlyManagerMultiSig,ChangePrivilegeContract,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_kyc,KYC Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_mainLottery,Main Lottery Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_buyerManagement,Buyer Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_sellerManagement,Sellers Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_prizeFund,Prize Fund Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_systemCost,System Cost Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_lottoConfig,Lotto Config Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_randao,Randao Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_randaoConfig,Randao Config Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_randaoFund,Randao Fund Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,changeRandaoFundContract,Change Randao Fund Contract,,Privilege,_randaoFund,Randao Fund Contract Address,address,,,,,onlyManagerMultiSig,ChangeRandaoFundContract,,
+Fund Management,moveRoyalty,Move Royalty,,SystemCost,_amount,Amount,uint,ETH_WEI,,,,onlyManagerMultiSig,MoveRoyalty,,
+Fund Management,moveRandaoBounty,Move Randao Bounty,,SystemCost,_amount,Amount,uint,ETH_WEI,,,,onlyManagerMultiSig,MoveRandaoBounty,,
+Fund Management,moveSystemCost,Move System Cost,,SystemCost,_amount,Amount,uint,ETH_WEI,,,,onlyManagerMultiSig,MoveSystemCost,,
+Fund Management,moveAllTokenFund,Move All Token Fund,,RandaoFund,,,,,,,,onlyManagerMultiSig,MoveAllTokenFund,,
+Buyer Management,setSpendingLimit,Set spending Limit,,BuyerManagement,_spendingLimit,Spending Limit (USD),uint,,,,,onlyOperatorGroup,SetSpendingLimit,,

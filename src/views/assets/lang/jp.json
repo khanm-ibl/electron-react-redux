@@ -1,0 +1,340 @@
+{
+  "app_name": "QUANTA WALLET",
+  "menu": {
+    "home": "ホーム",
+    "result": "結果"
+  },
+  "common": {
+    "change": "変化する",
+    "btnNext": "次",
+    "currencies": {
+      "usd": "USD",
+      "jpy": "JPY",
+      "cny": "CNY",
+      "vnd": "VND"
+    },
+    "languages": {
+      "en": "英語",
+      "ja": "日本語",
+      "ch": "中国語",
+      "vn": "ベトナム語"
+    },
+    "button": {
+      "send": "送金する",
+      "address": "アドレス表示",
+      "copyAddress": "アドレスコピー",
+      "save": "保存",
+      "cancel": "キャンセル",
+      "ok": "はい",
+      "next": "次へ",
+      "back": "戻る",
+      "search": "検索",
+      "addContact": "新規登録",
+      "create": "登録",
+      "update": "更新する",
+      "confirm": "確認",
+      "createNewWallet": "新しいウォレットを作成",
+      "restoreWallet": "ウォレットを復元する",
+      "copy": "コピー",
+      "paste": "ペースト",
+      "delete": "削除",
+      "display": "表示",
+      "yes": "はい",
+      "no": "いいえ",
+      "refresh": "リフレッシュ",
+      "close": "閉じる",
+      "finish": "完成",
+      "receive": "受け取る",
+      "startBackup": "バックアップ開始",
+      "returnWallet": "ウォレットに戻ります",
+      "approve": "承認します",
+      "showPassphrase": " 復元フレーズを表示",
+      "backupNow": "今すぐバックアップ",
+      "later": "後で",
+      "done": "完了",
+      "show": "表示",
+      "gotIt": "OK",
+      "sending": "送金した金額",
+      "fee": "手数料",
+      "remaining": "残高",
+      "startExchange": "両替する",
+      "checkBalance": "残高を確認",
+      "sendMax": "全額を送金する",
+      "tryAgain": "再試行",
+      "activate": "アクティブ化する",
+      "login": "ログイン",
+      "changeAsset": "資産の変更",
+      "confirming": "確認",
+      "execute": "実行する",
+      "executing": "実行中",
+      "cancelling": "キャンセル",
+      "remove": "Remove",
+      "replace": "Replace",
+      "reload": "Reload"
+    },
+    "label": {
+      "activateApp": "あなたのアプリケーションを有効にする",
+      "inputYourWallet": "ウォレットを入力",
+      "chooeYourAsset": "あなたの資産を選択してください",
+      "keystore": "キーストア",
+      "enterPassphrase": "パスフレーズを入力してください",
+      "walletName": "ウォレット名 :",
+      "walletAddress": "ウォレットアドレス",
+      "walletAddressPlaceholder": "あなたの財布を入力してください...",
+      "password": "パスワード :",
+      "passwordPlaceholder": "パスワードを入力...",
+      "newPassword": "新しいパスワード :",
+      "setPassword": "パスワード設定 :",
+      "newPasswordPlaceholder": "パスワードを入力...",
+      "passwordconfirm": "パスワード確認 :",
+      "passwordconfirmPlaceholder": "パスワードを再入力...",
+      "show": "表示",
+      "hide": "非表示",
+      "security": "セキュリティ : ",
+      "weak": "危険",
+      "medium": "ミディアム",
+      "fair": "普通",
+      "strong": "安全",
+      "name": "名前: ",
+      "type": "タイプ: ",
+      "address": "アドレス:",
+      "description": "内容: ",
+      "faq": "よくあるご質問",
+      "feedback": "ご質問/ご要望",
+      "yourWalletName": "ウォレットの名前を設定する",
+      "sending": "送金した金額",
+      "fee": "手数料",
+      "remaining": "残高",
+      "exchanging": "処理中",
+      "receiving": "残高",
+      "total": "全額",
+      "language": "言語",
+      "shapeShift": "両替サービス",
+      "enterAmountPlaceholder": "{{network}}の金額を入力",
+      "youWantToExchange": "両替したい通貨は...",
+      "youWantToReceive": "受け取りたい通貨は...",
+      "yourActivity": "取引履歴",
+      "recentActivity": "最近の取引履歴",
+      "yourPortfolio": "全てのコイン",
+      "sendComplete": "送金が完了しました。",
+      "sendTo": "送金先",
+      "totalBalance": "残高",
+      "seeDetailBlockChain": "ブラウザ上で詳細を見る",
+      "seeDetailWeb": "ブラウザ上で詳細を見る",
+      "sent": "送信",
+      "received": "受け",
+      "today": "今日",
+      "yesterday": "昨日",
+      "fundsSent": "送金が完了しました。",
+      "fundsReceived": "受け取りが完了しました",
+      "sendingFunds": "処理中",
+      "receivingFunds": "処理中",
+      "amount": "金額",
+      "yourAddress": "アドレス表示",
+      "balance": "残高",
+      "from": "から",
+      "transactionFee": "取引手数料",
+      "excusion": "エクスカーション",
+      "pending": "保留中",
+      "completed": "完了しました",
+      "confirmed": "確認済み",
+      "economy": "経済",
+      "regular": "レギュラー",
+      "premium": "プレミアム",
+      "gasPrice": "ガス価格",
+      "gasLimit": "ガス制限",
+      "low": "低い",
+      "high": "高い",
+      "noData": "データなし",
+      "confirmation": "確認",
+      "value": "値",
+      "miningFee": "鉱業料",
+      "transactionTX": "トランザクションTX＃",
+      "taskList": "タスクリスト",
+      "last2Hours": "過去2時間",
+      "lastWeek": "先週",
+      "lastDay": "最後の日",
+      "lastMonth": "先月",
+      "allTime": "All Time",
+      "inputAddress": "Input Address",
+      "emptyData": "Empty Data",
+      "invalidAddress": [
+        "Invalid Address.",
+        "Input address is not a contract wallet.",
+        "Imported account is not this wallet's owners.",
+        "Add wallet is failed."
+      ],
+      "action": "Action",
+      "ownerAdddres": "Owner Address",
+      "detail": "Detail",
+      "change": "Change",
+      "status": "Status",
+      "warning": "Warning",
+      "invalidPassword": "Invalid Password",
+      "outOfMoney": "Your account is out of money!",
+      "addressInformation": "Address Information",
+      "notUnclockKeystore": "Can't unclock keystore",
+      "keyTrigger": "Key Trigger"
+    }
+  },
+  "register": {
+    "createNewWallet": {
+      "newPassPhrase": {
+        "head": "復元フレーズ",
+        "warn": [
+          "復元フレーズを使うことで、アプリケーションのアンインストールや端末の紛失・変更があった際でも、ウォレットと財産の復元を行うことができます。",
+          "12個の単語からなる復元フレーズを紙などに記録し、安全な場所に保管してください。この復元フレーズは第三者に絶対に教えないでください。"
+        ],
+        "title": "復元フレーズ"
+      },
+      "newPassPhraseConfirm": {
+        "head": "※重要",
+        "warn": [
+          "復元フレーズは、あなたのコインを保護する大切なものです。他人に漏洩した場合、財産を不正に利用される恐れがあります。",
+          "また、復元フレーズを忘れた場合アプリケーションのアンインストールや、端末の紛失・変更にあった際に復元をすることができません。紙などに必ず記録をして、第三者の目の届かない所に保存をしてください。"
+        ],
+        "alert": "復元フレーズを、記録しましたか？"
+      },
+      "enterNewPassPhrase": {
+        "head": "復元フレーズ確認",
+        "warn": [
+          "復元フレーズを正確に記録しているか確認を行います。以下にあなたの復元フレーズを入力してください。"
+        ],
+        "title": "こちらに入力してくだい。"
+      },
+      "setWalletName": {
+        "errors": {
+          "walletNameExisted": "既存の名前",
+          "walletNameInvalid": "ウォレット名は必ず入力してください。"
+        }
+      },
+      "setPassword": {
+        "warn": [
+          "このパスワードはあなたの送金取引の確認などに利用します。"
+        ],
+        "errors": {
+          "passwordInvalid": "危険"
+        }
+      }
+    },
+    "restoreWallet": {
+      "invalidPhassphrase": {
+        "head": "パスフレーズが違います",
+        "blackText": [
+          "パスフレーズが承認されませんでした。",
+          "以下の理由が考えられます。"
+        ],
+        "orangeText": [
+          "- 全てのテキストが間違っている",
+          "- つづりが間違っている",
+          "- 単語間にスペースがない"
+        ]
+      }
+    }
+  },
+  "selectLanguages": {
+    "head": "言語を選択してください",
+    "change": "言語",
+    "en": "English",
+    "jp": "日本語",
+    "vi": "Tiếng Việt",
+    "cn": "中文"
+  },
+  "term": {
+    "head": "利用規約",
+    "read": "私は利用規約内容を確認の上、同意します。"
+  },
+  "timeline": {
+    "button": {
+      "backToTimeline": "Back To Timeline"
+    },
+    "history": {
+      "name": "History",
+      "transactionConfirmed": "Transaction was confirmed",
+      "transactionSumitted": "Transaction was submitted",
+      "ownerAdded": "Owner was added",
+      "transactionExecuted": "Transaction was executed",
+      "transactionFailed": "Execution was failed",
+      "transactionRevoked": "Transaction was revoked",
+      "transaction": "Transaction",
+      "by": "by",
+      "from": "From",
+      "owner": "Owner"
+    },
+    "label": {
+      "fromOwner": "From Owner",
+      "toOwner": "To Owner",
+      "changeTo": "Change to"
+    }
+  },
+  "transaction": {
+    "button": {
+      "backToTransaction": "Back To Transaction"
+    },
+    "pageHead": "取引履歴",
+    "noTransaction": "履歴はまだありません",
+    "fee": "手数料",
+    "txid": "ID",
+    "newTxNotification": "新しい取引を処理中です",
+    "newTxConfirmed": "取引が承認されました",
+    "detail": "ブロックチャインで詳細を見る",
+    "dialog": {
+      "viewTx": {
+        "head": "取引情報",
+        "status": "ステータス",
+        "done": "完了",
+        "pending": "処理中",
+        "datetime": "日程",
+        "txid": "取引ID",
+        "value": "金額",
+        "fee": "手数料",
+        "description": "内容"
+      },
+      "copied": "Copied to clipboard",
+      "wrongAddress": "Wrong address!",
+      "largeTokenError": "Cannot send token amount higher than token you have!",
+      "fail": "Fail!",
+      "fillAll": "Please fill all text input!",
+      "sendConfirm": "Do you want to send "
+    },
+    "history": "History",
+    "send": "Send",
+    "receive": "Receive"
+  },
+  "admin": {
+    "button": {
+      "addNewOwner": "Add New Owner",
+      "changeRequirement": "Change Requirement",
+      "addOwner": "Add Owner",
+      "backToOwner": "Back To Owner",
+      "backToRequirement": "Back To Requirement",
+      "removeOwner": "Remove Owner",
+      "replaceOwner": "Replace Owner"
+    },
+    "label": {
+      "newOwner": "New Owner",
+      "ownerWasRemoved": "Owner was removed",
+      "ownerWasReplaced": "Owner was replaced",
+      "owner": "Owner",
+      "addBy": "Add by",
+      "removeBy": "Remove by",
+      "replaceBy": "Replace by",
+      "oldRequirement": "Old Requirement",
+      "newRequirement": "New Requirement",
+      "requirement": "Requirement",
+      "addSuccessfully": "Well done! Added successfully",
+      "removeSuccessfully": "Well done! Removed successfully",
+      "replaceSuccessfully": "Well done! Replaced successfully",
+      "changeSuccessfully": "Well done! Changged requirement successfully",
+      "currentOwnerAddress": "Current Owner Address",
+      "newOwnerAddress": "New Owner Address",
+      "invalidRequirement": "Invalid Requirement",
+      "confirmRemoveOwner": "Do you want to remove this owner address?",
+      "confirmReplaceOwner": "Do you want to replace this owner address?",
+      "confirmAddOwner": "Do you want to add this owner address?",
+      "confirmOwner": "Do you want to confirm?",
+      "cancelOwner": "Do you want to cancel?",
+      "confirmChangeRequirmement": "Do you want to change requirement?"
+    }
+  }
+}

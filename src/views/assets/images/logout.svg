@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Hi-Fi" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Timeline" transform="translate(-27.000000, -555.000000)">
+            <g id="Page-1" transform="translate(27.000000, 555.841797)">
+                <path d="M10.1969744,2.3047532 C9.17900124,1.22598899 7.73659624,0.552866655 6.13723988,0.552866655 C3.05237216,0.552866655 0.55220348,3.05303533 0.55220348,6.13679776 C0.55220348,9.22056019 3.05237216,11.7207289 6.13723988,11.7207289 C7.73659624,11.7207289 9.17900124,11.0465012 10.1969744,9.96884233" id="Stroke-1" stroke="#EE8522"></path>
+                <path d="M5.58746804,6.23428445 L14.681804,6.23428445" id="Stroke-3" stroke="#0F62AE"></path>
+                <polyline id="Stroke-5" stroke="#0F62AE" points="11.988762 3.55947976 14.6823566 6.25196911 12.0871329 8.84608754"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

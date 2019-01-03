@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="16px" viewBox="0 0 15 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Hi-Fi" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Timeline" transform="translate(-26.000000, -168.000000)">
+            <g id="Page-1" transform="translate(27.000000, 168.991364)">
+                <polygon id="Stroke-1" stroke="#EE8522" points="8.66139213 4.24435569 4.31547766 0.385430216 4.31547766 8.10328116"></polygon>
+                <path d="M4.3154006,5.7971725 L4.3154006,2.53465444 C2.10699797,2.76504955 0.384813774,4.63209756 0.384813774,6.90214438 C0.384813774,8.53340341 1.27711323,9.95353113 2.59783972,10.710984 C2.18482374,10.1153471 1.94132924,9.39256912 1.94132924,8.61277028 C1.94132924,7.03853212 2.95383485,5.83955288 4.3154006,5.7971725 Z" id="Stroke-3" stroke="#EE8522"></path>
+                <polygon id="Stroke-5" stroke="#0F62AE" points="5.2052343 9.86545701 9.55114877 13.7243825 9.55114877 6.00653154"></polygon>
+                <path d="M9.55084055,8.31271725 L9.55084055,11.5752353 C11.7592432,11.3448402 13.4814274,9.4777922 13.4814274,7.20774538 C13.4814274,5.57648635 12.5898985,4.15635863 11.269172,3.3989058 C11.682188,3.99454266 11.9249119,4.71732064 11.9249119,5.49711947 C11.9249119,7.07135764 10.9131769,8.27033688 9.55084055,8.31271725 Z" id="Stroke-7" stroke="#0F62AE"></path>
+            </g>
+        </g>
+    </g>
+</svg>

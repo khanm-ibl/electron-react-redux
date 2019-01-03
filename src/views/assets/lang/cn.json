@@ -1,0 +1,349 @@
+{
+  "app_name": "QUANTA WALLET",
+  "menu": {
+    "home": "Home",
+    "result": "Result"
+  },
+  "common": {
+    "change": "Change",
+    "btnNext": "下一個",
+    "currencies": {
+      "usd": "USD",
+      "jpy": "JPY",
+      "cny": "CNY",
+      "vnd": "VND"
+    },
+    "languages": {
+      "en": "英語",
+      "ja": "日本",
+      "ch": "中文",
+      "vn": "越南"
+    },
+    "button": {
+      "send": "发送",
+      "address": "地址",
+      "copyAddress": "复制地址",
+      "save": "保存",
+      "cancel": "取消",
+      "ok": "确定",
+      "next": "下一步",
+      "back": "上一步",
+      "search": "搜索",
+      "addContact": "联系人",
+      "create": "创建新地址",
+      "update": "更新",
+      "confirm": "确认 ",
+      "createNewWallet": "创建新的电子钱包",
+      "restoreWallet": "找回电子钱包",
+      "copy": "复制",
+      "paste": "粘贴",
+      "delete": "删除",
+      "display": "联系人",
+      "yes": "是",
+      "no": "否",
+      "refresh": "刷新",
+      "close": "关闭",
+      "finish": "完成",
+      "receive": "领取",
+      "startBackup": "开始备份",
+      "returnWallet": "返回电子钱包",
+      "approve": "验证",
+      "showPassphrase": "显示密码短语",
+      "backupNow": "立即备用！",
+      "later": "等一下",
+      "done": "完成",
+      "show": "显示",
+      "gotIt": "OK",
+      "sending": "正在发送",
+      "fee": "费用",
+      "remaining": "剩余",
+      "startExchange": "开始兑换",
+      "checkBalance": "查询余额",
+      "sendMax": "最多发送金额",
+      "tryAgain": "再试一次",
+      "activate": "啟用",
+      "login": "登錄",
+      "changeAsset": "更改資產",
+      "confirming": "Confirming",
+      "execute": "确认",
+      "executing": "执行",
+      "cancelling": "取消",
+      "remove": "Remove",
+      "replace": "Replace",
+      "reload": "Reload"
+    },
+    "label": {
+      "activateApp": "激活你的應用程序",
+      "inputYourWallet": "輸入您的錢包",
+      "chooeYourAsset": "選擇您的資產",
+      "keystore": "鑰匙店",
+      "enterPassphrase": "輸入您的密碼",
+      "walletName": "电子钱包名称：",
+      "walletAddress": "錢包地址",
+      "walletAddressPlaceholder": "輸入你的錢包...",
+      "password": "密码：",
+      "passwordPlaceholder": "请输入密码",
+      "newPassword": "新密码：",
+      "newPasswordPlaceholder": "请输入密码",
+      "setPassword": "设置密码：",
+      "passwordconfirm": "确认密码：",
+      "passwordconfirmPlaceholder": "确认密码",
+      "show": "联系人",
+      "hide": "隐藏",
+      "security": "保密：",
+      "weak": "弱",
+      "medium": "正常",
+      "fair": "合理",
+      "strong": "强",
+      "name": "名称: ",
+      "type": "类型：",
+      "address": "地址：",
+      "description": "描述：",
+      "faq": "FAQ",
+      "feedback": "意见反馈",
+      "yourWalletName": "请设置钱包名称",
+      "sending": "正在发送",
+      "fee": "费用",
+      "remaining": "剩余",
+      "exchanging": "兑换中",
+      "receiving": "领取中",
+      "total": "总额",
+      "language": "语言",
+      "shapeShift": "兑换系统",
+      "enterAmountPlaceholder": "请输入{{network}}金额",
+      "youWantToExchange": "您想要兑换",
+      "youWantToReceive": "您想要领取",
+      "yourActivity": "交易历史",
+      "recentActivity": "最近的交易履历",
+      "yourPortfolio": "个人投资项目",
+      "sendComplete": "发送完成",
+      "sendTo": "发放至",
+      "totalBalance": "总余额",
+      "seeDetailBlockChain": "在比特币上查看详细内容",
+      "seeDetailWeb": "前往官网查看交易历史",
+      "sent": "发送",
+      "received": "领取",
+      "today": "今天",
+      "yesterday": "昨天",
+      "fundsSent": "完成发送",
+      "fundsReceived": "完成领取",
+      "sendingFunds": "处理发送要求",
+      "receivingFunds": "处理领取要求",
+      "amount": "金额",
+      "yourAddress": "地址",
+      "balance": "差额",
+      "from": "从",
+      "transactionFee": "交易费用",
+      "excusion": "短途旅行",
+      "pending": "有待",
+      "completed": "已完成",
+      "confirmed": "确认",
+      "economy": "经济",
+      "regular": "定期",
+      "premium": "额外费用",
+      "gasPrice": "天然气价格",
+      "gasLimit": "气体限制",
+      "low": "低",
+      "high": "高",
+      "noData": "没有数据",
+      "confirmation": "确认",
+      "value": "值",
+      "miningFee": "采矿费",
+      "transactionTX": "交易TX＃",
+      "taskList": "任务列表",
+      "last2Hours": "最近2个小时",
+      "lastWeek": "上个星期",
+      "lastDay": "最后一天",
+      "lastMonth": "上个月",
+      "allTime": "All Time",
+      "inputAddress": "Input Address",
+      "invalidAddress": [
+        "Invalid Address.",
+        "Input address is not a contract wallet.",
+        "Imported account is not this wallet's owners.",
+        "Add wallet is failed."
+      ],
+      "action": "Action",
+      "ownerAdddres": "Owner Address",
+      "detail": "Detail",
+      "change": "Change",
+      "emptyData": "Empty Data",
+      "status": "Status",
+      "warning": "Warning",
+      "invalidPassword": "Invalid Password",
+      "outOfMoney": "Your account is out of money!",
+      "addressInformation": "Address Information",
+      "notUnclockKeystore": "Can't unclock keystore",
+      "keyTrigger": "Key Trigger"
+    }
+  },
+  "register": {
+    "createNewWallet": {
+      "newPassPhrase": {
+        "head": "您电子钱包的密码短语",
+        "warn": [
+          "当应用软件被拆卸、停止或消失的情况下，密码短语允许您找回自己的账号以及电子钱包。",
+          "请保存或写下一下密码短语的12字母在某个安全的地方，并且不要分享它给其他任何人。"
+        ],
+        "title": "密码短语"
+      },
+      "newPassPhraseConfirm": {
+        "head": "重要",
+        "warn": [
+          "密码短语对找回账号极为重要。假如您的密码短语被第三方知道，这对您的账号会造成巨大威胁。",
+          "假如电子钱包应用程序没安装或被终止，您可以用这密码短语找回您的电子钱包。因此我们建议保存您的密码短语在最安全的地方并且不要分享给其他任何人（别保存在电脑里或在网上）。"
+        ],
+        "alert": "你已经保存您的密码短语了吗？"
+      },
+      "enterNewPassPhrase": {
+        "head": "请输入密码短语",
+        "warn": [
+          "为了保证您已经保存的密码短语是正确，请在下面重新输入。"
+        ],
+        "title": "请输入"
+      },
+      "setWalletName": {
+        "errors": {
+          "walletNameExisted": "钱包名称已存在",
+          "walletNameInvalid": "钱包名称不能为空或只用拉丁字母"
+        }
+      },
+      "setPassword": {
+        "warn": ["此密码用于确认您的汇款 （汇款基金）操作。"],
+        "errors": {
+          "passwordInvalid": "密码太弱"
+        }
+      }
+    },
+    "restoreWallet": {
+      "invalidPhassphrase": {
+        "head": "密码短语无效",
+        "blackText": ["密码短语步不正确。", "请重新检查一下要求："],
+        "orangeText": [
+          "- 全部字体是小写",
+          "- 检查正字法",
+          "- 字词之间没有多余的空格"
+        ]
+      }
+    }
+  },
+  "selectLanguages": {
+    "head": "请选择您需要的语言",
+    "change": "更改语言",
+    "en": "English",
+    "jp": "日本語",
+    "vi": "Tiếng Việt",
+    "cn": "中文"
+  },
+  "term": {
+    "head": "使用条款",
+    "read": "我已经阅读并同意以上各项条款。"
+  },
+  "timeline": {
+    "button": {
+      "backToTimeline": "Back To Timeline"
+    },
+    "history": {
+      "name": "History",
+      "transactionConfirmed": "Transaction was confirmed",
+      "transactionSumitted": "Transaction was submitted",
+      "ownerAdded": "Owner was added",
+      "transactionExecuted": "Transaction was executed",
+      "transactionFailed": "Execution was failed",
+      "transactionRevoked": "Transaction was revoked",
+      "transaction": "Transaction",
+      "by": "by",
+      "from": "From",
+      "owner": "Owner"
+    },
+    "label": {
+      "fromOwner": "From Owner",
+      "toOwner": "To Owner",
+      "changeTo": "Change to"
+    }
+  },
+  "transaction": {
+    "button": {
+      "backToTransaction": "Back To Transaction"
+    },
+    "pageHead": "交易历史",
+    "noTransaction": "目前没有交易",
+    "fee": "费用",
+    "txid": "ID",
+    "newTxNotification": "正在处理新的交易。",
+    "newTxConfirmed": "交易完成。",
+    "detail": "在比特币上查看详细内容",
+    "dialog": {
+      "viewTx": {
+        "head": "交易通讯",
+        "status": "标题",
+        "done": "完成",
+        "pending": "等待",
+        "datetime": "日期/时间",
+        "txid": "交易ID",
+        "value": "价值",
+        "fee": "费用",
+        "description": "描述"
+      },
+      "copied": "Copied to clipboard",
+      "wrongAddress": "Wrong address!",
+      "largeTokenError": "Cannot send token amount higher than token you have!",
+      "fail": "Fail!",
+      "fillAll": "Please fill all text input!",
+      "sendConfirm": "Do you want to send "
+    },
+    "stepDecline": {
+      "title": "警告!",
+      "btnCancel": "跳过警告",
+      "btnConfirm": "返回上一个画面",
+      "content": "QNT classic将于2017年   月    日不出现在市场上。2017年   月后，QNT classic将不再有效。"
+    },
+    "kycError": {
+      "title": "警告!",
+      "btnCancel": "取消",
+      "btnConfirm": "KYC登记",
+      "content": "您的ETH地址必须登记以显示QNT。在此登记。"
+    },
+    "transferable": {
+      "title": "警告!",
+      "btnConfirm": "OK",
+      "content": "QNT已被隐藏因Quanta钱包中的支付功能已被关掉。为了让它重新显示，请前往菜单选择显示QNT功能。"
+    }
+  },
+  "admin": {
+    "button": {
+      "addNewOwner": "Add New Owner",
+      "changeRequirement": "Change Requirement",
+      "addOwner": "Add Owner",
+      "backToOwner": "Back To Owner",
+      "backToRequirement": "Back To Requirement",
+      "removeOwner": "Remove Owner",
+      "replaceOwner": "Replace Owner"
+    },
+    "label": {
+      "newOwner": "New Owner",
+      "ownerWasRemoved": "Owner was removed",
+      "ownerWasReplaced": "Owner was replaced",
+      "owner": "Owner",
+      "addBy": "Add by",
+      "removeBy": "Remove by",
+      "replaceBy": "Replace by",
+      "oldRequirement": "Old Requirement",
+      "newRequirement": "New Requirement",
+      "requirement": "Requirement",
+      "addSuccessfully": "Well done! Added successfully",
+      "removeSuccessfully": "Well done! Removed successfully",
+      "replaceSuccessfully": "Well done! Replaced successfully",
+      "changeSuccessfully": "Well done! Changged requirement successfully",
+      "currentOwnerAddress": "Current Owner Address",
+      "newOwnerAddress": "New Owner Address",
+      "invalidRequirement": "Invalid Requirement",
+      "confirmRemoveOwner": "Do you want to remove this owner address?",
+      "confirmReplaceOwner": "Do you want to replace this owner address?",
+      "confirmAddOwner": "Do you want to add this owner address?",
+      "confirmOwner": "Do you want to confirm?",
+      "cancelOwner": "Do you want to cancel?",
+      "confirmChangeRequirmement": "Do you want to change requirement?"
+    }
+  }
+}

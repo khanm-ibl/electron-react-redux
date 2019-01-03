@@ -1,0 +1,441 @@
+{
+  "app_name": "QUANTA WALLET",
+  "menu": {
+    "home": "Home",
+    "result": "Result"
+  },
+  "common": {
+    "change": "Change",
+    "btnNext": "Next",
+    "currencies": {
+      "usd": "USD",
+      "jpy": "JPY",
+      "cny": "CNY",
+      "vnd": "VND"
+    },
+    "languages": {
+      "en": "English",
+      "ja": "Japanese",
+      "ch": "Chinese",
+      "vn": "Vietnamese"
+    },
+    "passwordRate": {
+      "weak": "weak",
+      "medium": "medium",
+      "fair": "fair",
+      "strong": "strong"
+    },
+    "button": {
+      "send": "Send",
+      "address": "Address",
+      "copyAddress": "Copy Address",
+      "save": "Save",
+      "cancel": "Cancel",
+      "ok": "Ok",
+      "next": "Next",
+      "back": "Back",
+      "search": "Search",
+      "addContact": "Contact",
+      "create": "Create",
+      "update": "Update",
+      "confirm": "Confirm",
+      "createNewWallet": "Create New Wallet",
+      "restoreWallet": "Restore Wallet",
+      "copy": "Copy",
+      "paste": "Paste",
+      "delete": "Delete",
+      "display": "Display",
+      "yes": "Yes",
+      "no": "No",
+      "refresh": "Refresh",
+      "close": "Close",
+      "finish": "Finish",
+      "receive": "Receive",
+      "startBackup": "Start Backup",
+      "returnWallet": "Return to wallet",
+      "approve": "Approve",
+      "showPassphrase": "Show Recovery Passphrase",
+      "backupNow": "Backup now",
+      "later": "Later",
+      "done": "Done",
+      "show": "Show",
+      "gotIt": "Got it",
+      "sending": "Sending",
+      "fee": "Fee",
+      "remaining": "Remaining",
+      "startExchange": "Start Exchanging",
+      "checkBalance": "Check Balance",
+      "sendMax": "Send MAX",
+      "tryAgain": "Try Again",
+      "activate": "Activate",
+      "login": "Login",
+      "changeAsset": "Change Asset",
+      "confirming": "Confirming",
+      "execute": "Execute",
+      "executing": "Executing",
+      "cancelling": "Cancelling",
+      "remove": "Remove",
+      "replace": "Replace",
+      "reload": "Reload"
+    },
+    "label": {
+      "activateApp": "Activate Your App",
+      "inputYourWallet": "Input Your Wallet",
+      "chooeYourAsset": "Choose Your Asset",
+      "keystore": "Key Store",
+      "enterPassphrase": "Enter your passphrase",
+      "walletName": "Wallet Name :",
+      "walletAddress": "Wallet Address",
+      "walletAddressPlaceholder": "Enter your wallet...",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password…",
+      "newPassword": "New Password :",
+      "newPasswordPlaceholder": "Enter your password…",
+      "setPassword": "Set password :",
+      "passwordconfirm": "Confirm Password :",
+      "passwordconfirmPlaceholder": "Confirm your password…",
+      "show": "Show",
+      "hide": "Hide",
+      "security": "Password strength : ",
+      "weak": "weak",
+      "medium": "medium",
+      "fair": "fair",
+      "strong": "strong",
+      "name": "Name: ",
+      "type": "Type: ",
+      "address": "Address:",
+      "description": "Description: ",
+      "faq": "FAQ",
+      "feedback": "Feedback",
+      "yourWalletName": "Your wallet name",
+      "sending": "Sending",
+      "fee": "Fee",
+      "remaining": "Remaining",
+      "exchanging": "Exchanging",
+      "receiving": "Receiving",
+      "total": "Total",
+      "language": "Language",
+      "shapeShift": "Exchange service",
+      "enterAmountPlaceholder": "Enter {{network}} amount",
+      "youWantToExchange": "You want to Exchange...",
+      "youWantToReceive": "You want to Receive...",
+      "yourActivity": "Your Activity",
+      "recentActivity": "Recent Activity",
+      "yourPortfolio": "Your Portfolio",
+      "sendComplete": "Send complete",
+      "sendTo": "Send to",
+      "totalBalance": "Total Balance",
+      "seeDetailBlockChain": "View detail on Blockchain",
+      "seeDetailWeb": "See the transaction on web",
+      "sent": "Sent",
+      "received": "Received",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "fundsSent": "Funds sent",
+      "fundsReceived": "Funds received",
+      "sendingFunds": "Sending funds",
+      "receivingFunds": "Receiving funds",
+      "amount": "Amount",
+      "yourAddress": "Your Address",
+      "balance": "Balance",
+      "from": "From",
+      "transactionFee": "Transaction Fee",
+      "execution": "Execution",
+      "pending": "Pending",
+      "completed": "Completed",
+      "confirmed": "Confirmed",
+      "economy": "Economy",
+      "regular": "Regular",
+      "premium": "Premium",
+      "gasPrice": "Gas Price",
+      "gasLimit": "Gas Limit",
+      "low": "Low",
+      "high": "High",
+      "noData": "No data",
+      "inputAddress": "Input Address",
+      "invalidAddress": [
+        "Invalid Address.",
+        "Input address is not a contract wallet.",
+        "Imported account is not this wallet's owners.",
+        "Add wallet is failed."
+      ],
+      "action": "Action",
+      "ownerAdddres": "Owner Address",
+      "detail": "Detail",
+      "change": "Change",
+      "status": "Status",
+      "confirmation": "Confirmation",
+      "value": "Value",
+      "miningFee": "Mining Fee",
+      "transactionTX": "Transaction TX#",
+      "taskList": "Task List",
+      "last2Hours": "Last 2 hours",
+      "lastWeek": "Last Week",
+      "lastDay": "Last Day",
+      "lastMonth": "Last Month",
+      "allTime": "All Time",
+      "warning": "Warning",
+      "emptyData": "Empty Data",
+      "history": "History",
+      "invalidPassword": "Invalid Password",
+      "outOfMoney": "Your account is out of money!",
+      "addressInformation": "Address Information",
+      "notUnclockKeystore": "Can't unclock keystore",
+      "keyTrigger": "Key Trigger",
+      "submited": "Submited",
+      "executed": "Executed",
+      "added": "Added",
+      "failure": "Failure",
+      "cancelled": "Cancelled"
+    }
+  },
+  "register": {
+    "createNewWallet": {
+      "newPassPhrase": {
+        "head": "Your wallet passphrase",
+        "warn": [
+          "This recovery passphrase will allow you to restore your wallet and balance in case the application is either uninstalled/terminated or lost.",
+          "Kindly write down or save this 12-word passphrase in a secure location. Please keep this passphrase confidential and refrain from disclosing to other people."
+        ],
+        "title": "Passphrase"
+      },
+      "newPassPhraseConfirm": {
+        "head": "Important",
+        "warn": [
+          "Recovery passphrase is extremely important to protect your funds. If your passphrase is leaked to a third-party, there are risks of your funds being manipulated or misused.",
+          "If this wallet application is uninstalled or terminated, with the passphrase, you can recover this wallet. We advise that you save your passphrase in a secure place and keep it confidential (not saved on your computer or internet)."
+        ],
+        "alert": "Have you stored your recovery phrase ?"
+      },
+      "enterNewPassPhrase": {
+        "head": "Enter passphrase",
+        "warn": [
+          "To ensure that you have properly saved your passphrase, please enter it below."
+        ],
+        "title": "Input here"
+      },
+      "setWalletName": {
+        "errors": {
+          "walletNameExisted": "Wallet name already existed",
+          "walletNameInvalid": "Wallet name must be not empty and only has Alphabet chacracter"
+        }
+      },
+      "setPassword": {
+        "warn": [
+          "This password is used to confirm your remittance (sending funds)."
+        ],
+        "errors": {
+          "passwordInvalid": "Password too weak"
+        }
+      }
+    },
+    "restoreWallet": {
+      "invalidPhassphrase": {
+        "head": "Passphrase Invalid",
+        "blackText": [
+          "Passphrase was not accepted.",
+          "Ensure the following:"
+        ],
+        "orangeText": [
+          "- All lowercase text",
+          "- Check your spelling",
+          "- No extra spaces between words"
+        ]
+      }
+    }
+  },
+  "selectLanguages": {
+    "head": "Select language.",
+    "change": "Select Language",
+    "en": "English",
+    "jp": "日本語",
+    "vi": "Tiếng Việt",
+    "cn": "中文"
+  },
+  "term": {
+    "head": "Terms and Conditions of Use",
+    "read": "I have READ and AGREE with the terms and conditions."
+  },
+  "mainMenu": {
+    "head": "Menu",
+    "balance": "Balance",
+    "contact": "Contacts",
+    "overview": "Overview",
+    "wallet": "Wallet",
+    "backup": "Backup",
+    "exchange": "Exchange",
+    "transactionHistory": "History",
+    "options": "Options",
+    "optionsChangePassword": "Change Password",
+    "optionsDisplayPhrase": "Display Passphrase ",
+    "optionsNewWallet": "New/Restore Wallet",
+    "optionsChangeWalletName": "Change wallet name",
+    "optionsChangeLanguage": "Language & Currency ",
+    "optionsSetting": "Setting",
+    "optionSelectFee": "Select Fee",
+    "optionShowQNT": "Show QNT",
+    "help": "Help",
+    "selectWallet": "Current wallet...",
+    "connecting": "Connecting....",
+    "footer": "Copy right by Cardano-labo",
+    "newsfeed": "News feed"
+  },
+  "timeline": {
+    "button": {
+      "backToTimeline": "Back To Timeline"
+    },
+    "history": {
+      "name": "History",
+      "transactionConfirmed": "Transaction was confirmed",
+      "transactionSumitted": "Transaction was submitted",
+      "ownerAdded": "Owner was added",
+      "transactionExecuted": "Transaction was executed",
+      "transactionFailed": "Execution was failed",
+      "transactionRevoked": "Transaction was revoked",
+      "transaction": "Transaction",
+      "by": "by",
+      "from": "From",
+      "owner": "Owner"
+    },
+    "label": {
+      "fromOwner": "From Owner",
+      "toOwner": "To Owner",
+      "changeTo": "Change to"
+    }
+  },
+  "transaction": {
+    "button": {
+      "backToTransaction": "Back To Transaction"
+    },
+    "pageHead": "Transaction History",
+    "noTransaction": "There isn't any transaction",
+    "fee": "fee",
+    "txid": "ID",
+    "newTxNotification": "Processing new transaction.",
+    "newTxConfirmed": "Transaction complete.",
+    "detail": "View detail on Blockchain",
+    "dialog": {
+      "viewTx": {
+        "head": "Transaction information",
+        "status": "Status",
+        "done": "Done",
+        "pending": "Processing",
+        "datetime": "Date/Time",
+        "txid": "Transaction ID",
+        "value": "Value",
+        "fee": "Fee",
+        "description": "Description",
+        "sendSuccess": "Well done! Sent successfully"
+      },
+      "copied": "Copied to clipboard",
+      "wrongAddress": "Wrong address!",
+      "largeTokenError": "Cannot send token amount higher than token you have!",
+      "fail": "Fail!",
+      "fillAll": "Please fill all text input!",
+      "sendConfirm": "Do you want to send "
+    },
+    "history": "History",
+    "send": "Send",
+    "receive": "Receive"
+  },
+  "balance": {
+    "balanceChangedNotification": "Balance changed.",
+    "view": {
+      "balance": "Balance",
+      "spotRate": "Spot rate",
+      "btnSend": "Send",
+      "btnReceive": "Receive",
+      "btnHistory": "History"
+    },
+    "dialog": {
+      "receive": {
+        "receive": "Receive",
+        "imgAddress": "Click to copy image to clipboard",
+        "title": "Your {{coinName}} address",
+        "toastCopyAddress": "Address copied to clipboard.",
+        "toastCopyImage": "QR code address copied to clipboard.",
+        "lblNone": "Unspecified",
+        "lblRequest": "Request specified amount",
+        "lblEnterAmount": "Enter {value} amount",
+        "lblAmountMessage": "Specific amount sender can see"
+      },
+      "sendCoin": {
+        "head": "Send",
+        "sendTo": "Send To",
+        "amount": "Amount",
+        "sendToPlaceholder": "Select address...",
+        "amountPlaceholder": "Enter {var} amount...",
+        "errors": {
+          "requireSendToAddress": "Please select receiver.",
+          "invalidSendToAddress": "Invalid receiver address.",
+          "invalidAmount": "Send amount is over your balance.",
+          "otherAddress": "You can not send to yourself.",
+          "cannotReceiveQNT": "The receiver address is not available in QNT system.",
+          "feeNotEnough": "Fee (ETH) is not enough."
+        },
+        "tooltip": [
+          "Fee is a mining fee of blockchain network. ",
+          "You can change Fee",
+          "[Options] > [Select Fee]"
+        ]
+      },
+      "sendCoinEnterPassword": {
+        "head": "Send",
+        "password": "Password",
+        "passwordPlaceholder": "Enter your password...",
+        "passwordInstructions": [
+          "Please enter your password."
+        ],
+        "btnShowPassword": {
+          "show": "Show",
+          "hide": "Hide"
+        },
+        "errors": {
+          "requirePassword": "Password is required.",
+          "incorrectPassword": "Invalid password",
+          "balanceNotEnough": "Available balance is insufficient.",
+          "cannotSend": "Can't send {{coinName}}."
+        },
+        "messages": {
+          "sendSuccess": "{{coinName}} send transaction received."
+        }
+      }
+    }
+  },
+  "admin": {
+    "button": {
+      "addNewOwner": "Add New Owner",
+      "changeRequirement": "Change Requirement",
+      "addOwner": "Add Owner",
+      "backToOwner": "Back To Owner",
+      "backToRequirement": "Back To Requirement",
+      "removeOwner": "Remove Owner",
+      "replaceOwner": "Replace Owner"
+    },
+    "label": {
+      "newOwner": "New Owner",
+      "ownerWasRemoved": "Owner was removed",
+      "ownerWasReplaced": "Owner was replaced",
+      "owner": "Owner",
+      "addBy": "Add by",
+      "removeBy": "Remove by",
+      "replaceBy": "Replace by",
+      "oldRequirement": "Old Requirement",
+      "newRequirement": "New Requirement",
+      "requirement": "Requirement",
+      "addSuccessfully": "Well done! Added successfully",
+      "removeSuccessfully": "Well done! Removed successfully",
+      "replaceSuccessfully": "Well done! Replaced successfully",
+      "changeSuccessfully": "Well done! Changged requirement successfully",
+      "currentOwnerAddress": "Current Owner Address",
+      "newOwnerAddress": "New Owner Address",
+      "invalidRequirement": "Invalid Requirement",
+      "confirmRemoveOwner": "Do you want to remove this owner address?",
+      "confirmReplaceOwner": "Do you want to replace this owner address?",
+      "confirmAddOwner": "Do you want to add this owner address?",
+      "confirmOwner": "Do you want to confirm?",
+      "cancelOwner": "Do you want to cancel?",
+      "confirmChangeRequirmement": "Do you want to change requirement?"
+    }
+  }
+}

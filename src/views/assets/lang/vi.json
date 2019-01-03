@@ -1,0 +1,370 @@
+{
+  "app_name": "QUANTA WALLET",
+  "menu": {
+    "home": "Home",
+    "result": "Result"
+  },
+  "common": {
+    "change": "Change",
+    "btnNext": "Tiêp tục",
+    "currencies": {
+      "usd": "USD",
+      "jpy": "JPY",
+      "cny": "CNY",
+      "vnd": "VND"
+    },
+    "languages": {
+      "en": "Tiếng Anh",
+      "ja": "Tiếng Nhật",
+      "ch": "Tiếng Trung",
+      "vn": "Tiếng Việt"
+    },
+    "button": {
+      "send": "Gửi",
+      "address": "Địa chỉ",
+      "copyAddress": "Sao Chép Địa Chỉ",
+      "save": "Lưu",
+      "cancel": "Hủy",
+      "ok": "Ok",
+      "next": "Tiếp Tục",
+      "back": "Quay Lại",
+      "search": "Tìm Kiếm",
+      "addContact": "Liên Hệ",
+      "create": "Tạo",
+      "update": "Cập Nhật",
+      "confirm": "Xác Nhận",
+      "createNewWallet": "Tạo Ví Mới",
+      "restoreWallet": "Khôi Phục Ví",
+      "copy": "Sao Chép",
+      "paste": "Dán",
+      "delete": "Xóa",
+      "display": "Hiện",
+      "yes": "Có",
+      "no": "Không",
+      "refresh": "Làm Mới",
+      "close": "Đóng",
+      "finish": "Kết Thúc",
+      "receive": "Nhận",
+      "startBackup": "Bắt Đầu Backup",
+      "returnWallet": "Quay lại Ví",
+      "approve": "Đồng ý",
+      "showPassphrase": "Hiện passphrase khôi phục",
+      "backupNow": "Tiến hành backup",
+      "later": "Để sau",
+      "done": "Hoàn tất",
+      "show": "Hiện Passphrase",
+      "gotIt": "OK",
+      "sending": "Đang gửi",
+      "fee": "Phí",
+      "remaining": "Vẫn còn",
+      "startExchange": "Bắt đầu chuyển đổi",
+      "checkBalance": "Kiểm tra số dư",
+      "sendMax": "Gửi toàn bộ",
+      "tryAgain": "Thử lại",
+      "activate": "Kích hoạt",
+      "login": "Đăng nhập",
+      "changeAsset": "Thay đổi tài sản",
+      "confirming": "Đang xác nhận",
+      "execute": "Thực thi",
+      "executing": "Đang thực thi",
+      "cancelling": "Đang hủy bỏ",
+      "remove": "Xóa",
+      "replace": "Thay thế ",
+      "reload": "Tải lại"
+    },
+    "label": {
+      "activateApp": "Kích hoạt ứng dụng",
+      "inputYourWallet": "Nhập địa chỉ ví",
+      "chooeYourAsset": "Chọn tài sản của bạn",
+      "keystore": "Key Store",
+      "enterPassphrase": "Nhập passphrase",
+      "walletName": "Tên Ví :",
+      "walletAddress": "Địa chỉ ví",
+      "walletAddressPlaceholder": "Nhập địa chỉ ví...",
+      "password": "Mật khẩu :",
+      "passwordPlaceholder": "Điền mật khẩu",
+      "newPassword": "Mật Khẩu Mới :",
+      "setPassword": "Thiết lập mật khẩu :",
+      "newPasswordPlaceholder": "Điền mật khẩu mới",
+      "passwordconfirm": "Xác Nhận Mật Khẩu :",
+      "passwordconfirmPlaceholder": "Xác nhận lại mật khẩu",
+      "show": "Hiện",
+      "hide": "Ẩn",
+      "security": "Mức độ bảo mật : ",
+      "weak": "Thấp",
+      "medium": "Vừa",
+      "fair": "Vừa",
+      "strong": "Cao",
+      "name": "Tên: ",
+      "type": "Loại: ",
+      "address": "Địa Chỉ:",
+      "description": "Mô Tả: ",
+      "faq": "Hỏi & Đáp",
+      "feedback": "Phản Hồi",
+      "yourWalletName": "Tên ví",
+      "sending": "Đang gửi",
+      "fee": "Phí",
+      "remaining": "Vẫn còn",
+      "exchanging": "Trao đổi",
+      "receiving": "Đang nhận",
+      "total": "Tổng",
+      "language": "Ngôn ngữ",
+      "shapeShift": "Dịch vụ đổi tiền",
+      "enterAmountPlaceholder": "Nhập số lượng {{network}}",
+      "youWantToExchange": "Bạn muốn chuyển đổi...",
+      "youWantToReceive": "Bạn muốn nhận...",
+      "yourActivity": "Lịch sử giao dịch",
+      "recentActivity": "Giao dịch gần đây",
+      "yourPortfolio": "Hạng mục đầu tư",
+      "sendComplete": "Gửi thành công",
+      "sendTo": "Gửi đến",
+      "totalBalance": "Tổng tiền",
+      "seeDetailBlockChain": "Xem chi tiết trên Blockchain",
+      "seeDetailWeb": "Xem giao dịch trên Web",
+      "sent": "Đã gửi",
+      "received": "Đã nhận",
+      "today": "Hôm nay",
+      "yesterday": "Hôm qua",
+      "fundsSent": "Gửi thành công",
+      "fundsReceived": "Đã nhận",
+      "sendingFunds": "Yêu cầu gửi đang chờ xử lý",
+      "receivingFunds": "Yêu cầu nhận đang chờ xử lý",
+      "amount": "Số tiền",
+      "yourAddress": "Địa chỉ của bạn",
+      "balance": "Owner",
+      "from": "Từ",
+      "transactionFee": "Phí giao dịch",
+      "excusion": "Đã đủ xác nhận",
+      "pending": "Đang chờ giải quyết",
+      "completed": "Đã thực thi",
+      "confirmed": "Đã xác nhận",
+      "economy": "Tiết kiệm",
+      "regular": "Bình thường",
+      "premium": "Cao cấp",
+      "gasPrice": "Đơn giá gas",
+      "gasLimit": "Giới hạn gas",
+      "low": "Thấp",
+      "high": "Cao",
+      "noData": "Không có dữ liệu",
+      "confirmation": "Xác nhận",
+      "value": "Giá trị",
+      "miningFee": "Chi phí mining",
+      "transactionTX": "Giao dịch TX#",
+      "taskList": "Danh sách tác vụ",
+      "last2Hours": "2 giờ trước",
+      "lastWeek": "Tuần trước",
+      "lastDay": "Ngày trước",
+      "lastMonth": "Tháng trước",
+      "allTime": "Tất cả",
+      "inputAddress": "Nhập địa chỉ",
+      "invalidAddress": [
+        "Invalid Address.",
+        "Input address is not a contract wallet.",
+        "Imported account is not this wallet's owners.",
+        "Add wallet is failed."
+      ],
+      "action": "Hành động",
+      "ownerAdddres": "Địa chỉ Owner",
+      "detail": "Chi tiết",
+      "emptyData": "Empty Data",
+      "change": "Thay đổi",
+      "status": "Tình trạng",
+      "execution": "Chấp hành",
+      "warning": "Cảnh báo",
+      "invalidPassword": "Lỗi mật khẩu",
+      "outOfMoney": "Tài khỏan của bạn đã hết tiền!",
+      "addressInformation": "Thông tin địa chỉ",
+      "notUnclockKeystore": "Không thể mở khóa",
+      "keyTrigger": "Chọn khóa kích hoạt",
+      "submited": "Đã gửi",
+      "executed": "Đã thực thi",
+      "added": "Đã thêm",
+      "failure": "Thất bại",
+      "cancelled": "Đã hủy"
+    }
+  },
+  "register": {
+    "createNewWallet": {
+      "newPassPhrase": {
+        "head": "Passphrase Ví Của Bạn",
+        "warn": [
+          "Passphrase nãy sẽ giúp bạn khôi phục ví và Owner của bạn trong trường hợp ứng dụng trên thiết bị của bạn bị hủy cài đặt/mất",
+          "Vui lòng viết lại hoặc lưu lại passphrase này ở nơi an toàn. Xin giữ passphrase này tuyệt mật và không để lộ cho người khác biết."
+        ],
+        "title": "Passphrase"
+      },
+      "newPassPhraseConfirm": {
+        "head": "Chú ý",
+        "warn": [
+          "Passphrase này cực kỳ quan trọng để bảo vệ Owner của bạn. Nếu passphrase của bạn bị bên thứ ba lấy được, Owner của bạn sẽ bị kiểm soát hoặc sử dụng trái phép.",
+          "Nếu ứng dụng ví điện tử này bị gỡ hoặc hủy khỏi thiết bị, chỉ với passphrase, bạn có thể khôi phục lại ví. Bạn nên lưu lại passphrase ở một nơi an toàn và giữ nó tuyệt mật (không lưu nó trong máy tính hoặc trên mạng Internet)."
+        ],
+        "alert": "Bạn đã lưu trữ passphrase an toàn chưa?"
+      },
+      "enterNewPassPhrase": {
+        "head": "Nhập passphrase",
+        "warn": [
+          "Để chắc chắn rằng bạn đã lưu passphrase của mình an toàn, vui lòng nhập lại vào hội thoại bên dưới."
+        ],
+        "title": "Vui lòng nhập passphrase"
+      },
+      "setWalletName": {
+        "errors": {
+          "walletNameExisted": "Tên Này Đã Tồn Tại",
+          "walletNameInvalid": "Bạn không được phép để trống tên ví và tên ví phải là các ký tự trong bảng chữ cái Alphabet"
+        }
+      },
+      "setPassword": {
+        "warn": [
+          "Mật khẩu này được dùng để thực hiện giao dịch."
+        ],
+        "errors": {
+          "passwordInvalid": "Mật khẩu yếu"
+        }
+      }
+    },
+    "restoreWallet": {
+      "invalidPhassphrase": {
+        "head": "Passphrase chưa đúng",
+        "blackText": [
+          "Passphrase này không được chấp nhận.",
+          "Hãy đảm bảo passphrase có những yêu cầu sau:"
+        ],
+        "orangeText": [
+          "- Sử dụng chữ viết thường",
+          "- Kiểm tra lại chính tả",
+          "- Không có khoảng trắng thừa giữa các từ"
+        ]
+      }
+    }
+  },
+  "selectLanguages": {
+    "head": "Chọn Ngôn Ngữ",
+    "change": "Thay Đổi Ngôn Ngữ",
+    "en": "English",
+    "jp": "日本語",
+    "vi": "Tiếng Việt",
+    "cn": "中文"
+  },
+  "term": {
+    "head": "Điều Khoản Sử Dụng",
+    "read": "Tôi đã đọc và đồng ý với tất cả điều khoản."
+  },
+  "mainMenu": {
+    "head": "Menu",
+    "balance": "Owner",
+    "contact": "Danh bạ",
+    "overview": "Tổng Quan",
+    "wallet": "Ví",
+    "backup": "Backup",
+    "exchange": "Đổi tiền",
+    "transactionHistory": "Lịch Sử Giao Dịch",
+    "options": "Tùy Chọn",
+    "optionsChangePassword": "Thay đổi Mật Khẩu",
+    "optionsDisplayPhrase": "Hiển thị Passphrase ",
+    "optionsNewWallet": "Tạo mới / phục hồi ví",
+    "optionsChangeWalletName": "Thay Tên Ví",
+    "optionsChangeLanguage": "Ngôn ngữ/Tiền tệ",
+    "optionsSetting": "Cài Đặt",
+    "optionSelectFee": "Chọn phí gửi",
+    "optionShowQNT": "Hiển thị QNT",
+    "newsfeed": "Bản Tin",
+    "help": "Giúp Đỡ",
+    "selectWallet": "Chọn Ví...",
+    "connecting": "Đang Kết Nối....",
+    "footer": "Bản Quyền Bởi Cardano-labo"
+  },
+  "timeline": {
+    "button": {
+      "backToTimeline": "Back To Timeline"
+    },
+    "history": {
+      "name": "Lịch sử",
+      "transactionConfirmed": "Giao dịch đã được xác nhận",
+      "transactionSumitted": "Giao dịch đã gửi",
+      "ownerAdded": "Tài khoản đã được thêm",
+      "transactionExecuted": "Giao dịch đã được thực thi",
+      "transactionFailed": "Sự thực thi thất bại",
+      "transactionRevoked": "Giao dịch bị huỷ",
+      "transaction": "Giao dịch",
+      "by": "do",
+      "from": "từ",
+      "owner": "Tài khoản"
+    },
+    "label": {
+      "fromOwner": "From Owner",
+      "toOwner": "To Owner",
+      "changeTo": "Change to"
+    }
+  },
+  "transaction": {
+    "button": {
+      "backToTransaction": "Back To Transaction"
+    },
+    "pageHead": "Transaction History",
+    "noTransaction": "Không có giao dịch nào",
+    "fee": "Phí",
+    "txid": "ID",
+    "newTxNotification": "Processing new transaction.",
+    "newTxConfirmed": "Transaction complete.",
+    "detail": "View detail on Blockchain",
+    "dialog": {
+      "viewTx": {
+        "head": "Transaction information",
+        "status": "Trạng thái",
+        "done": "Hoàn thành",
+        "pending": "Đang chờ",
+        "datetime": "Ngày giờ",
+        "txid": "Mã giao dịch",
+        "value": "Giá trị",
+        "fee": "Phí",
+        "description": "Miêu tả"
+      },
+      "copied": "Đã chép vào bộ nhớ",
+      "wrongAddress": "Địa chỉ không đúng!",
+      "largeTokenError": "Không thể gửi nhiều tiền hơn số tiền bạn có!",
+      "fail": "Thất bại!",
+      "fillAll": "Vui lòng điền đầy đủ thông tin!",
+      "sendConfirm": "Bạn có muốn gửi "
+    },
+    "history": "Lịch sử ",
+    "send": "Gửi",
+    "receive": "Nhận"
+  },
+  "admin": {
+    "button": {
+      "addNewOwner": "Thêm Owner mới",
+      "changeRequirement": "Thay đổi đồng thuận",
+      "addOwner": "Thêm Owner",
+      "backToOwner": "Back To Owner",
+      "backToRequirement": "Back To Requirement",
+      "removeOwner": "Xóa Owner",
+      "replaceOwner": "Thay thế Owner"
+    },
+    "label": {
+      "newOwner": "Owner mới",
+      "ownerWasRemoved": "Owner đã bị xóa",
+      "ownerWasReplaced": "Owner đã bị thay thế ",
+      "owner": "Owner",
+      "addBy": "Thêm bởi",
+      "removeBy": "Xóa bởi",
+      "replaceBy": "Thay thế bởi",
+      "oldRequirement": "Đồng thuận cũ",
+      "newRequirement": "Đồng thuận mới",
+      "requirement": "Đồng thuận",
+      "addSuccessfully": "Đã thêm thành công",
+      "removeSuccessfully": "Đã xóa thành công",
+      "replaceSuccessfully": "Đã thay thế thành công",
+      "changeSuccessfully": "Đã thay đổi thành công",
+      "currentOwnerAddress": "Địa chỉ Owner hiện tại",
+      "newOwnerAddress": "Địa chỉ Owner mới",
+      "invalidRequirement": "Lổi đồng thuận",
+      "confirmRemoveOwner": "Bạn muốn xóa địa chỉ này không?",
+      "confirmReplaceOwner": "Bạn muốn thay thế địa chỉ này không?",
+      "confirmAddOwner": "Bạn muốn thêm địa chỉ này không?",
+      "confirmOwner": "Bạn muốn chấp nhận không?",
+      "cancelOwner": "Bạn muốn hủy bỏ không?",
+      "confirmChangeRequirmement": "Bạn muốn thay đổi đồng thuận không?"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="34px" viewBox="0 0 21 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>ethereum</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Hi-Fi" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Choose-asset" transform="translate(-351.000000, -258.000000)" fill="#010101" fill-rule="nonzero">
+            <g id="ethereum" transform="translate(351.000000, 258.164587)">
+                <g id="Group" opacity="0.6" transform="translate(0.000000, 12.356165)">
+                    <g id="Shape">
+                        <polygon points="10.5382469 0.0221968391 0.0290043493 4.72475576 10.5382469 10.8352285 21.0442668 4.72792674"></polygon>
+                    </g>
+                </g>
+                <g id="Group" opacity="0.45">
+                    <g id="Shape">
+                        <polygon points="0.0289600001 17.0619116 10.5221334 23.1392321 10.5221334 0"></polygon>
+                    </g>
+                </g>
+                <g id="Group" opacity="0.8" transform="translate(10.522133, 0.000000)">
+                    <g id="Shape">
+                        <polygon points="0 0 0 23.1392321 10.5221334 17.0650654"></polygon>
+                    </g>
+                </g>
+                <g id="Group" opacity="0.45" transform="translate(0.000000, 18.939840)">
+                    <g id="Shape">
+                        <polygon points="0.0289600001 0.0255635345 10.5221334 14.7054232 10.5221334 6.1831799"></polygon>
+                    </g>
+                </g>
+                <g id="Group" opacity="0.8" transform="translate(10.522133, 18.939840)">
+                    <g id="Shape">
+                        <polygon points="0 6.1831799 0 14.7054232 10.4963912 0.0255635345"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

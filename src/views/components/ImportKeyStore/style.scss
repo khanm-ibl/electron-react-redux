@@ -1,0 +1,111 @@
+.containerUploadKeyStore{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.viewTitle{
+  text-align: right;
+  position: relative;
+  right: -95px;
+}
+.titleUploadKeyStore{
+  color: #EEEEEE;
+  font-size: 90px;
+  font-weight: 600;
+  position: relative;
+  top: 25px;
+  right: 7px;
+}
+.formViewUploadKeyStore{
+  width: 760px;
+  height: 360px;
+  margin: 0 auto;
+  padding-top: 40px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0 2px 13px 0 rgba(0,0,0,0.1);
+}
+.formViewUploadKeyStore p{
+  color: #BABABA;
+  font-size: 13px;
+  font-weight: 100;
+  padding: 20px 90px;
+}
+.formViewUploadKeyStore .iconClock{
+  font-size: 54px;
+  color: #1875F0;
+}
+.inputView{
+  width: 556px;
+  height: 22px;
+  border-radius: 3px;
+  padding: 10px;
+  border: 1px solid #C6C9CA;
+  outline: none;
+  font-size: 14px;
+  margin: 10px 0;
+}
+.btn{
+  width: 578px;
+  height: 48px;
+  background: #1775F0;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  display: block;
+  margin: 0 auto;
+}
+/* === Upload File === */
+
+.uploadFileKeyStore{
+  border: 1px solid #EEEEEE;
+  border-radius: 3px;
+  background-color: #F6F6F6;
+  width: 578px;
+  height: 78px;
+  margin: 0px auto 10px auto;
+}
+.uploadFileKeyStore p{
+  color: #6A7074;
+  font-weight: 600;
+  position: relative;
+  text-transform: uppercase;
+  top: -71px;
+}
+.uploadFileKeyStore span{
+  color: #A5B5C2;
+  font-weight: 600;
+  font-family: 'Open Sans';
+}
+.uploadFileKeyStore input{
+  position: relative;
+  z-index: 111;
+  margin: 0;
+  top: -5px;
+  padding: 0;
+  width: 578px;
+  height: 78px;
+  cursor: pointer;
+  outline: none;
+  opacity: 0;
+}
+
+/* === Upload File === */
+
+.errWrap {
+  margin: 0 auto;
+  width: 566px;
+  height: 16px;
+  position: relative;
+}
+
+.error {
+  margin-left: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

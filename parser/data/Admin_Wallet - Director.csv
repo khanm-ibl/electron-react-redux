@@ -1,0 +1,16 @@
+category,function,function_label,function_description,contract,input_name,input_label,input_type,convert_convention,read_only,default_value,input_description,priviledge,action,disable,condition
+Withdrawal Address Management,changeWithdrawalAddrOfLottery,Change Withdrawal Address Of Lottery,Change new withdrawal address of lottery defined by address,Privilege,_withdrawalAddr,New Withdrawal Address,address,,,,,onlyDirectorMultiSig,ChangeWithdrawalAddrOfLottery,,
+Withdrawal Address Management,changeWithdrawalAddrOfPrizeFund,Change Withdrawal Address Of Prize Fund,Change new withdrawal address of prize fund defined by address,Privilege,_withdrawalAddr,New Withdrawal Address,address,,,,,onlyDirectorMultiSig,ChangeWithdrawalAddrOfPrizeFund,,
+Withdrawal Address Management,changeWithdrawalAddrOfSystemCost,Change Withdrawal Address Of System Cost,Change new withdrawal address of system cost defined by adddress,Privilege,_withdrawalAddr,New Withdrawal Address,address,,,,,onlyDirectorMultiSig,ChangeWithdrawalAddrOfSystemCost,,
+Withdrawal Address Management,changeWithdrawalAddrOfRoyalty,Change Withdrawal Address Of Royalty,Change new withdrawal address of royalty defined by address,Privilege,_withdrawalAddr,New Withdrawal Address,address,,,,,onlyDirectorMultiSig,ChangeWithdrawalAddrOfRoyalty,,
+Withdrawal Address Management,changeWithdrawalAddrOfRandaoBounty,Change Withdrawal Address Of Randao Bounty,Change new withdrawal address of randao bounty by address,Privilege,_withdrawalAddr,New Withdrawal Address,address,,,,,onlyDirectorMultiSig,ChangeWithdrawalAddrOfRandaoBounty,,
+Contracts Management,changeDirectorMultiSigAddress,Change Director MultiSig Address,Change new director multiSig address,Privilege,_director,New Director Address,address,,,,,onlyDirectorMultiSig,ChangeDirectorMultiSigAddress,,
+Contracts Management,changeManagerMultiSigAddress,Change Manager MultiSig Address,Change new manager multiSig address,Privilege,_manager,New Manager Address,address,,,,,onlyDirectorMultiSig,ChangeManagerMultiSigAddress,,
+Contracts Management,changeEscrowMultiSigAddress,Change Escrow MultiSig Address,Change new escrow multiSig address,Privilege,_escrow,New Escrow Address,address,,,,,onlyDirectorMultiSig,ChangeEscrowMultiSigAddress,,
+Contracts Management,addPrivilege,Add Privilege,Add privilege,Privilege,_groupType,Group Type,uint,,,,,onlyDirectorMultiSig,AddPrivilege,,
+Contracts Management,addPrivilege,Add Privilege,Add privilege,Privilege,_addr,Address,address,,,,,onlyDirectorMultiSig,AddPrivilege,,
+Contracts Management,removePrivilege,Remove Privilege,Remove privilege,Privilege,_groupType,Group Type,uint,,,,,onlyDirectorMultiSig,RemovePrivilege,,
+Contracts Management,removePrivilege,Remove Privilege,Remove privilege,Privilege,_addr,Address,address,,,,,onlyDirectorMultiSig,RemovePrivilege,,
+Emergency,moveFundInEmergency,Move Fund In Emergency,Move fund in emergency,Lotto649,,,,,,,,onlyEscrowMultiSig,MoveFundInEmergency,,
+Emergency,stopSellingInEmergency,Stop Selling In Emergency,Stop selling in emergency,Lotto649,,,,,,,,onlyEscrowMultiSig,StopSellingInEmergency,,!DRAW_END
+Fund Management,movePrizeFund,Move Prize Fund,,PrizeFund,_amount,Amount,uint,,,,,onlyEscrowMultiSig,MovePrizeFund,,

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="29px" viewBox="0 0 26 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>QNT-R</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="49.9985876%" x2="100%" y2="49.9985876%" id="linearGradient-1">
+            <stop stop-color="#FABF00" offset="0%"></stop>
+            <stop stop-color="#F18600" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="49.997997%" x2="100%" y2="49.997997%" id="linearGradient-2">
+            <stop stop-color="#8D8D8D" offset="0%"></stop>
+            <stop stop-color="#939494" offset="6%"></stop>
+            <stop stop-color="#A0A0A0" offset="25%"></stop>
+            <stop stop-color="#A7A8A8" offset="48%"></stop>
+            <stop stop-color="#A9AAAA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="4426%" y1="19036%" x2="61088%" y2="19036%" id="linearGradient-3">
+            <stop stop-color="#FABF00" offset="0%"></stop>
+            <stop stop-color="#F18600" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-104.445246%" y1="50.0012105%" x2="100%" y2="50.0012105%" id="linearGradient-4">
+            <stop stop-color="#00469D" offset="0%"></stop>
+            <stop stop-color="#0061B1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Hi-Fi" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Choose-asset" transform="translate(-602.000000, -332.000000)" fill-rule="nonzero">
+            <g id="QNT-R" transform="translate(602.500000, 332.009300)">
+                <polygon id="Shape" fill="url(#linearGradient-1)" points="13.7685593 18.0079206 21.9940578 22.5551372 24.9293622 20.9325948 16.7639536 16.4145857 18.8570879 15.3012129 18.8311399 14.1172191 18.8311399 14.1172191 18.8056472 10.8437985 12.06601 7.1226749 9.12615334 8.80188862 9.12615334 16.1469229 2.44478517 12.4454162 2.37422497 15.6556264 9.12615334 19.3959311 9.12615334 19.396803 12.06601 21.0276281 12.06601 10.3721191 16.9428579 13.0718518 13.7703802 14.7593483"></polygon>
+                <polygon id="Shape" fill="url(#linearGradient-2)" points="12.177265 24.8176557 3.19443131 19.653481 3.19443131 19.6513411 0 17.8066873 0 21.490003 12.177265 28.4906996 18.9937997 24.585255 15.8010877 22.7474491"></polygon>
+                <polygon id="Shape" fill="url(#linearGradient-3)" points="0 6.69405171 0 13.6374257 3.18333754 15.4324623 3.18333754 8.48867 11.8711248 3.59007323 11.8711248 0"></polygon>
+                <polygon id="Shape" fill="url(#linearGradient-4)" points="13.0582373 0 13.0582373 3.69972134 21.7460246 8.74793119 21.7460246 15.9568266 24.9293622 17.8066873 24.9293622 6.89850162"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

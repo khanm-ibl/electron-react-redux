@@ -1,0 +1,5 @@
+category,function,function_label,function_description,contract,input_name,input_label,input_type,convert_convention,read_only,default_value,input_description,priviledge,action,disable,condition
+Randao Admin,start,Start Randao,,Randao,_encryptedSecret,Random number,bytes32,,,,,onlyOperator2,CampaignStart,,RANDAO_INITIALIZED
+Randao Admin,operator2Reveal,Reveal,,Randao,_secret,Random number,uint,,,,,onlyOperator2,Operator2Reveal,,RANDAO_FINALIZING
+Randao Admin,reward,Reward,,Randao,,,,,,,,onlyOperator1OrOperator2,RewardCompleted,,RANDAO_COMPLETE
+Randao Admin,stop,Stop,,Randao,,,,,,,,onlyOperator1OrOperator2,StopSuccess,,RANDAO_CAMPAIGN_ERROR

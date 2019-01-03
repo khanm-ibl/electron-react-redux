@@ -1,0 +1,6 @@
+category,function,function_label,function_description,contract,input_name,input_label,input_type,convert_convention,read_only,default_value,input_description,priviledge,action,disable,condition
+Randao Admin,init,Init Randao,,Randao,_drawID,Lottery Round Number,uint,,,,,onlyOperator1,CampaignInit,,RANDAO_DRAW_END|HAVE_BOUNTY|RANDAO_IDLE|PRE_CAMPAIGN_REFUND_END|!HAVE_RNG
+Randao Admin,init,Init Randao,,Randao,_encryptedSecret,Random number,bytes32,,,,,onlyOperator1,CampaignInit,,RANDAO_DRAW_END|HAVE_BOUNTY|RANDAO_IDLE|PRE_CAMPAIGN_REFUND_END|!HAVE_RNG
+Randao Admin,operator1Reveal,Reveal,,Randao,_secret,Random number,uint,,,,,onlyOperator1,Operator1Reveal,,RANDAO_FINALIZING
+Randao Admin,stop,Stop,,Randao,,,,,,,,onlyOperator1OrOperator2,StopSuccess,,RANDAO_CAMPAIGN_ERROR
+Randao Admin,reward,Reward,,Randao,,,,,,,,onlyOperator1OrOperator2,RewardCompleted,,RANDAO_COMPLETE

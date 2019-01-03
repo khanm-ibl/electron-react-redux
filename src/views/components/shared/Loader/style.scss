@@ -1,0 +1,132 @@
+
+  .app_loader_container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 888888;
+
+    background: url(../assets/images/bg.jpg) no-repeat;
+    background-color: #000;
+    opacity: 0.6;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .app_loader{
+      margin-top: 30px;
+  }
+  .app_loader p{
+      padding-top: 30px;
+  }
+  .app_loading_spinning_bubbles {
+    position: relative;
+    margin: auto;
+  }
+  .app_loading_spinning_bubbles .app_bubble_container {
+    position: absolute;
+    top: calc(50% - 10px/2);
+    left: calc(50% - 10px/2);
+    transform-origin: -150% 50%;
+  }
+  .app_loading_spinning_bubbles .app_bubble_container .app_bubble {
+    background: #FFF;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: bubble 1s infinite;
+    animation-delay: inherit;
+  }
+  .app_loading_spinning_bubbles .app_bubble_container:nth-of-type(0n+1) {
+    transform: translateX(200%) rotate(-90deg);
+    animation-delay: -1.5s;
+  }
+  .app_loading_spinning_bubbles .app_bubble_container:nth-of-type(0n+2) {
+    transform: translateX(200%) rotate(-45deg);
+    animation-delay: -1.375s;
+  }
+  .app_loading_spinning_bubbles .app_bubble_container:nth-of-type(0n+3) {
+    transform: translateX(200%);
+    animation-delay: -1.25s;
+  }
+  .app_loading_spinning_bubbles .app_bubble_container:nth-of-type(0n+4) {
+    transform: translateX(200%) rotate(45deg);
+    animation-delay: -1.125s;
+  }
+  .app_loading_spinning_bubbles .app_bubble_container:nth-of-type(0n+5) {
+    transform: translateX(200%) rotate(90deg);
+    animation-delay: -1s;
+  }
+  .app_loading_spinning_bubbles .app_bubble_container:nth-of-type(0n+6) {
+    transform: translateX(200%) rotate(135deg);
+    animation-delay: -0.875s;
+  }
+  .app_loading_spinning_bubbles .app_bubble_container:nth-of-type(0n+7) {
+    transform: translateX(200%) rotate(180deg);
+    animation-delay: -0.75s;
+  }
+  .app_loading_spinning_bubbles .app_bubble_container:nth-of-type(0n+8) {
+    transform: translateX(200%) rotate(225deg);
+    animation-delay: -0.625s;
+  }
+  
+  
+  @keyframes bubble {
+    0%, 100% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1);
+    }
+  }
+  @keyframes spoke {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  @keyframes pulse {
+    0%, 75% {
+      transform: scale(1, 1);
+    }
+    25% {
+      transform: scale(1, 3);
+    }
+  }
+  @keyframes slide {
+    0%, 100% {
+      left: 0;
+    }
+    50% {
+      left: 100%;
+    }
+  }
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes flip {
+    0% {
+      transform: rotateX(0) rotateY(0);
+    }
+    20%, 25% {
+      transform: rotateX(0) rotateY(720deg);
+    }
+    45%, 50% {
+      transform: rotateX(720deg) rotateY(720deg);
+    }
+    70%, 75% {
+      transform: rotateX(720deg) rotateY(0);
+    }
+    95%, 100% {
+      transform: rotateX(0) rotateY(0);
+    }
+  }
+  

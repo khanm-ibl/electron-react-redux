@@ -1,0 +1,3 @@
+category,function,function_label,function_description,contract,input_name,input_label,input_type,convert_convention,read_only,default_value,input_description,priviledge,action,disable,condition
+Bounty Keeper,transferToContract,Send Bounty,,QNTU,_to,RandaoFund Address,address,,yes,RandaoFund,,onlyBountyKeeper,,,
+Bounty Keeper,transferToContract,Send Bounty,,QNTU,_value,Amount,uint,ETH_WEI,,,,onlyBountyKeeper,,,

@@ -1,0 +1,93 @@
+category,function,function_label,function_description,contract,input_name,input_label,input_type,convert_convention,read_only,default_value,input_description,priviledge,action,disable,condition
+Lottery Operation,setSellingTime,Set Selling Time,,LottoConfig,_numSeconds,Selling Time,uint,DAY_SECOND,,,,onlyManagerGroup,SetEndSellingTime|ErrorSetEndSellingTimeInSelling,,DRAW_END
+Lottery Operation,changeColumnPrice,Change Column Price,,LottoConfig,_columnPrice,Column Price,uint,ETH_WEI,,,,onlyManagerGroup,ChangeColumnPrice|ErrorChangeColumnPriceInSelling,,DRAW_END
+Lottery Operation,changeColumnPrice,Change Column Price,,LottoConfig,_fiatRate,Fiat Rate,uint,PERCENT_RATE,,,,onlyManagerGroup,ChangeColumnPrice|ErrorChangeColumnPriceInSelling,,DRAW_END
+Lottery Operation,startSelling,Start Selling,,Lotto649,_columnPrice,Column Price,uint,ETH_WEI,,,,onlyManagerGroup,StartSelling|ErrorHasNotSellingTime|ErrorStartInSelling,,DRAW_END
+Lottery Operation,startSelling,Start Selling,,Lotto649,_fiatRate,Fiat Rate,uint,PERCENT_RATE,,,,onlyManagerGroup,StartSelling|ErrorHasNotSellingTime|ErrorStartInSelling,,DRAW_END
+Lottery Operation,pauseSelling,Pause Selling,,Lotto649,,,,,,,,onlyManagerOrEscrowGroup,PauseSelling,,DRAW_SELLING
+Lottery Operation,resumeSelling,Resume Selling,,Lotto649,,,,,,,,onlyManagerOrEscrowGroup,ResumeSelling,,DRAW_SPAUSED
+Lottery Operation,completeSelling,Complete Selling,,Lotto649,,,,,,,,onlyManagerGroup,CompleteSelling,,!DRAW_END
+Lottery Operation,calculateJackpot,Calculate Jackpot,,Lotto649,_draw,Draw Number,uint,,,,,onlyManagerGroup,CalculateJackpot,,
+Lottery Operation,countJackpotColumns,Count Jackpot Columns,,Lotto649,_draw,Draw Number,uint,,,,,onlyManagerGroup,CountJackpotTikets,,
+Seller Management,createSeller,Create Seller,,SellerManagement,_name,Name,bytes32,,,,,onlyManagerMultiSig,CreateSeller,,
+Seller Management,createSeller,Create Seller,,SellerManagement,_commissionRate,Commission Rate,uint,PERCENT_RATE,,,,onlyManagerMultiSig,CreateSeller,,
+Seller Management,createSeller,Create Seller,,SellerManagement,_withdrawalAddr,Withdrawal Address,address,,,,,onlyManagerMultiSig,CreateSeller,,
+Seller Management,removeSeller,Remove Seller,,SellerManagement,_sellers,Sellers Address,address[],,,,,onlyManagerMultiSig,RemoveSeller,,
+Seller Management,freezeSeller,Freeze Seller,,SellerManagement,_sellers,Sellers Address,address[],,,,,onlyOperatorOrEscrowGroup,FreezeSeller,,
+Seller Management,unfreezeSeller,Unfreeze Seller,,SellerManagement,_sellers,Sellers Address,address[],,,,,onlyOperatorOrEscrowGroup,UnfreezeSeller,,
+Seller Configuration,changeSellerCommissionRate,Change Seller Commission Rate,,SellerManagement,_sellers,Sellers Address,address[],,,,,onlyManagerMultiSig,ChangeSellerCommissionRate,,DRAW_END
+Seller Configuration,changeSellerCommissionRate,Change Seller Commission Rate,,SellerManagement,_commissionRates,Commission Rate,uint[],PERCENT_RATE,,,,onlyManagerMultiSig,ChangeSellerCommissionRate,,DRAW_END
+Seller Configuration,changeSellerWithdrawalAddr,Change Seller Withdrawal Address,,SellerManagement,_sellers,Sellers Address,address[],,,,,onlyManagerMultiSig,ChangeSellerWithdrawalAddr,,
+Seller Configuration,changeSellerWithdrawalAddr,Change Seller Withdrawal Address,,SellerManagement,_withdrawalAddrs,Withdrawal Address,address[],,,,,onlyManagerMultiSig,ChangeSellerWithdrawalAddr,,
+Seller Configuration,changeSellerInfo,Change Seller Info,,SellerManagement,_sellers,Sellers Address,address,,,,,onlyManagerMultiSig,ChangeSellerInfo,,DRAW_END
+Seller Configuration,changeSellerInfo,Change Seller Info,,SellerManagement,_name,Name,bytes32,,,,,onlyManagerMultiSig,ChangeSellerInfo,,DRAW_END
+Seller Configuration,changeSellerInfo,Change Seller Info,,SellerManagement,_commissionRates,Commission Rate,uint,PERCENT_RATE,,,,onlyManagerMultiSig,ChangeSellerInfo,,DRAW_END
+Seller Configuration,changeSellerInfo,Change Seller Info,,SellerManagement,_withdrawalAddr,Withdrawal Address,address,,,,,onlyManagerMultiSig,ChangeSellerInfo,,DRAW_END
+Contracts Management,changePrivilegeContract,Change Privilege Contract,,Privilege,_privilege,Privilege Address,address,,,,,onlyManagerMultiSig,ChangePrivilegeContract,,
+Contracts Management,changeKYCContract,Change KYC Contract,,Privilege,_kyc,KYC Address,address,,,,,onlyManagerMultiSig,ChangeKYCContract,,
+Contracts Management,changeBuyerManagementContract,Change Buyer Management Contract,,Privilege,_buyerManagement,Buyer Address,address,,,,,onlyManagerMultiSig,ChangeBuyerManagementContract,,
+Contracts Management,changeSellerManagementContract,Change Buyer Management Contract,,Privilege,_sellerManagement,Sellers Address,address,,,,,onlyManagerMultiSig,ChangeSellerManagementContract,,
+Contracts Management,changeMainLotteryContract,Change Main Lottery Contract,,Privilege,_mainLottery,Main Lottery Address,address,,,,,onlyManagerMultiSig,ChangeMainLotteryContract,,
+Contracts Management,changePrizeFundContract,Change Prize Fund Contract,,Privilege,_prizeFund,Prize Fund Address,address,,,,,onlyManagerMultiSig,ChangePrizeFundContract,,
+Contracts Management,changeSystemCostContract,Change System Cost Contract,,Privilege,_systemCost,System Cost Address,address,,,,,onlyManagerMultiSig,ChangeSystemCostContract,,
+Contracts Management,changeLottoConfigContract,Change Lotto Config Contract,,Privilege,_lottoConfig,Lotto Config Address,address,,,,,onlyManagerMultiSig,ChangeLottoConfigContract,,
+Contracts Management,changeRandaoContract,Change Randao Contract,,Privilege,_randao,Randao Contract Address,address,,,,,onlyManagerMultiSig,ChangeRandaoContract,,
+Contracts Management,changeRandaoConfigContract,Change Randao Config Contract,,Privilege,_randaoConfig,Randao Config Contract Address,address,,,,,onlyManagerMultiSig,ChangeRandaoConfigContract,,
+Contracts Management,changeRandaoFundContract,Change Randao Fund Contract,,Privilege,_randaoFund,Randao Fund Contract Address,address,,,,,onlyManagerMultiSig,ChangeRandaoFundContract,,
+Contracts Management,changeDirectorMultiSigAddress,Change Director Multisig Address,,Privilege,_director,Director Multisig Address,address,,,,,onlyDirectorMultiSig,ChangeDirectorMultiSigAddress,,
+Contracts Management,changeManagerMultiSigAddress,Change Manager Multisig Address,,Privilege,_manager,Manager Multisig Address,address,,,,,onlyDirectorMultiSig,ChangeManagerMultiSigAddress,,
+Contracts Management,changeEscrowMultiSigAddress,Change Escrow Multisig Address,,Privilege,_escrow,Escrow Multisig Address,address,,,,,onlyDirectorMultiSig,ChangeEscrowMultiSigAddress,,
+Contracts Management,changeWithdrawalAddrOfLottery,Change Withdrawal Address Of Lottery,,Privilege,_withdrawalAddr,Withdrawal Address Of Lottery,address,,,,,onlyDirectorMultiSig,ChangeWithdrawalAddrOfLottery,,
+Contracts Management,changeWithdrawalAddrOfPrizeFund,Change Withdrawal Address Of PrizeFund,,Privilege,_withdrawalAddr,Withdrawal Address Of PrizeFund,address,,,,,onlyDirectorMultiSig,ChangeWithdrawalAddrOfPrizeFund,,
+Contracts Management,changeWithdrawalAddrOfSystemCost,Change Withdrawal Address Of SystemCost,,Privilege,_withdrawalAddr,Withdrawal Address Of SystemCost,address,,,,,onlyDirectorMultiSig,ChangeWithdrawalAddrOfSystemCost,,
+Contracts Management,changeWithdrawalAddrOfRoyalty,Change Withdrawal Address Of Royalty,,Privilege,_withdrawalAddr,Withdrawal Address Of Royalty,address,,,,,onlyDirectorMultiSig,ChangeWithdrawalAddrOfRoyalty,,
+Contracts Management,changeWithdrawalAddrOfRandaoBounty,Change Withdrawal Address Of Randao Bounty,,Privilege,_withdrawalAddr,Withdrawal Address Of Randao Bounty,address,,,,,onlyDirectorMultiSig,ChangeWithdrawalAddrOfRandaoBounty,,
+Contracts Management,addPrivilege,Add Privilege,,Privilege,_groupType,Group Type,uint,,,,,onlyDirectorMultiSig,AddPrivilege,,
+Contracts Management,addPrivilege,Add Privilege,,Privilege,_addr,Address,address,,,,,onlyDirectorMultiSig,AddPrivilege,,
+Contracts Management,removePrivilege,Remove Privilege,,Privilege,_groupType,Group Type,uint,,,,,onlyDirectorMultiSig,RemovePrivilege,,
+Contracts Management,removePrivilege,Remove Privilege,,Privilege,_addr,Address,address,,,,,onlyDirectorMultiSig,RemovePrivilege,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_kyc,KYC Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_mainLottery,Main Lottery Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_buyerManagement,Buyer Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_sellerManagement,Sellers Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_prizeFund,Prize Fund Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_systemCost,System Cost Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_lottoConfig,Lotto Config Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_randao,Randao Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_randaoConfig,Randao Config Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Contracts Management,setDependencyContracts,Set Dependency Contract,,Privilege,_randaoFund,Randao Fund Address,address,,,,,onlyManagerMultiSig,SetDependencyContracts,,
+Fund Management,moveSystemCost,Move System Cost,,SystemCost,_amount,Amount,uint,ETH_WEI,,,,onlyManagerMultiSig,MoveSystemCost,,
+Fund Management,moveRoyalty,Move Royalty,,SystemCost,_amount,Amount,uint,ETH_WEI,,,,onlyManagerMultiSig,MoveRoyalty,,
+Fund Management,moveRandaoBounty,Move Randao Bounty,,SystemCost,_amount,Amount,uint,ETH_WEI,,,,onlyManagerMultiSig,MoveRandaoBounty,,
+Fund Management,allowClaimCommission,Allow Claim Commission,,SystemCost,,,,,,,,onlyManagerGroup,AllowClaimCommission,,
+Fund Management,disallowClaimCommission,Disallow Claim Commission,,SystemCost,,,,,,,,onlyManagerGroup,DisallowClaimCommission,,
+Fund Management,moveAllTokenFund,Move All Token Fund,,RandaoFund,,,,,,,,onlyManagerMultiSig,MoveAllTokenFund,,
+Payout Rate Configuration,changeTotalSalesRate,Change Total Sales Rate,,LottoConfig,_prizeRate,Prize Rate,uint32,PERCENT_RATE,,,,onlyManagerGroup,ChangeTotalSalesRate|ErrorChangeTotalSalesRateInSelling,,DRAW_END
+Payout Rate Configuration,changeTotalSalesRate,Change Total Sales Rate,,LottoConfig,_systemCostRate,System Cost Rate,uint32,PERCENT_RATE,,,,onlyManagerGroup,ChangeTotalSalesRate|ErrorChangeTotalSalesRateInSelling,,DRAW_END
+Payout Rate Configuration,changeSystemCostRate,Change System Cost Rate,,LottoConfig,_royaltyRate,Royalty Rate,uint128,PERCENT_RATE,,,,onlyManagerGroup,ChangeSystemCostRate|ErrorChangeSystemCostRateInSelling,,DRAW_END
+Payout Rate Configuration,changeSystemCostRate,Change System Cost Rate,,LottoConfig,_randaoBountyRate,Randao Bounty Rate,uint128,PERCENT_RATE,,,,onlyManagerGroup,ChangeSystemCostRate|ErrorChangeSystemCostRateInSelling,,DRAW_END
+Lottery Prize Configuration,changeJackpotRate,Change Jackpot Rate,,LottoConfig,_jackpotRate,Jackpot Rate,uint,PERCENT_RATE,,,,onlyManagerGroup,ChangeJackpotRate|ErrorChangeJackpotRateInSelling,,DRAW_END
+Lottery Prize Configuration,changeMinJackpotAmount,Change Min Jacpot Amount,,LottoConfig,_minJackpotAmount,Min Jackpot Amount,uint,ETH_WEI,,,,onlyManagerGroup,ChangeMinJackpotAmount|ErrorChangeMinJackpotAmountInSelling,,DRAW_END
+Lottery Prize Configuration,changePrizeAmount,Change Prize Amount,,LottoConfig,_2ndPrize,2nd Prize,uint,ETH_WEI,,,,onlyManagerGroup,ChangePrizeAmount|ErrorChangePrizeAmountInSelling,,DRAW_END
+Lottery Prize Configuration,changePrizeAmount,Change Prize Amount,,LottoConfig,_3rdPrize,3rd Prize,uint,ETH_WEI,,,,onlyManagerGroup,ChangePrizeAmount|ErrorChangePrizeAmountInSelling,,DRAW_END
+Lottery Prize Configuration,changePrizeAmount,Change Prize Amount,,LottoConfig,_4thPrize,4th Prize,uint,ETH_WEI,,,,onlyManagerGroup,ChangePrizeAmount|ErrorChangePrizeAmountInSelling,,DRAW_END
+Lottery Prize Configuration,changePrizeAmount,Change Prize Amount,,LottoConfig,_5thPrize,5th Prize,uint,ETH_WEI,,,,onlyManagerGroup,ChangePrizeAmount|ErrorChangePrizeAmountInSelling,,DRAW_END
+Lottory KYC Configuration,changeRequiredKYC,Change Required KYC,,LottoConfig,_requiredKYC,Required KYC,uint,,,,,onlyManagerGroup,ChangeRequiredKYC|ErrorChangeRequiredKYCInSelling,,
+Randao Configuration,resetNonRevealCounter,Reset Non Reveal Counter,,Randao,_participant,Participant Address,address,,,,,onlyManagerGroup,NonRevealCount,,
+Randao Configuration,setBlacklistThreshold,Set Blacklist Threshold,,RandaoConfig,_blacklistThreshold,Blacklist Threshold,uint8,,,,,onlyManagerGroup,SetBlacklistThreshold,,
+Randao Configuration,allowReward,Allow Reward,,RandaoConfig,,,,,,,,onlyManagerGroup,AllowReward,,
+Randao Configuration,disallowReward,Disallow Reward,,RandaoConfig,,,,,,,,onlyManagerGroup,DisallowReward,,
+Randao Configuration,setNumberPlayerBeRewarded,Set number Player Be Rewared,,RandaoConfig,_numPlayer,Number Player,uint8,,,,,onlyManagerGroup,SetNumberPlayerBeRewarded,,
+Randao Configuration,setKycThreshold,Set KYC Threshold,,RandaoConfig,_numPlayer,Number Player,uint8,,,,,onlyManagerGroup,SetKycThreshold,,
+Randao Configuration,setDeposit,Set Deposit,,RandaoConfig,_deposit,Number Deposit,uint8,,,,,onlyManagerGroup,SetDeposit,,
+Randao Configuration,setRandaoThreshold,Set Randao Threshold,,RandaoConfig,_minParticipants,Min Participants,uint8,,,,,onlyManagerGroup,SetMinParticipants|SetMinReveals,,
+Randao Configuration,setRandaoThreshold,Set Randao Threshold,,RandaoConfig,_minReveals,Min Reweals,uint8,,,,,onlyManagerGroup,SetMinParticipants|SetMinReveals,,
+Randao Configuration,setRandaoDuration,Set Randao Duration,,RandaoConfig,_participantCommitDuration,Participant Commit Duration,uint16,,,,,onlyManagerGroup,SetParticipantCommitDuration|SetParticipantRevealDuration|SetOperatorRevealDuration,,
+Randao Configuration,setRandaoDuration,Set Randao Duration,,RandaoConfig,_participantRevealDuration,Participant Reveal Duration,uint16,,,,,onlyManagerGroup,SetParticipantCommitDuration|SetParticipantRevealDuration|SetOperatorRevealDuration,,
+Randao Configuration,setRandaoDuration,Set Randao Duration,,RandaoConfig,_operatorRevealDuration,Operator Reveal Duration,uint16,,,,,onlyManagerGroup,SetParticipantCommitDuration|SetParticipantRevealDuration|SetOperatorRevealDuration,,
+Randao Configuration,setParticipantCommitDuration,Set Participant Commit Duration,,RandaoConfig,_participantCommitDuration,Participant Commit Duration,uint16,,,,,onlyManagerGroup,SetParticipantCommitDuration,,
+Randao Configuration,setParticipantRevealDuration,Set Participant  Reveal Duration,,RandaoConfig,_participantRevealDuration,Participant Reveal Duration,uint16,,,,,onlyManagerGroup,SetParticipantRevealDuration,,
+Randao Configuration,setOperatorRevealDuration,Set Operator  Reveal Duration,,RandaoConfig,_operatorRevealDuration,Operator Reveal Duration,uint16,,,,,onlyManagerGroup,SetOperatorRevealDuration,,
+Randao Configuration,setOperator1,Set Operator 1,,RandaoConfig,_operator1,Operator 1 Address,address,,,,,onlyManagerMultiSig,SetOperator1,,
+Randao Configuration,setOperator2,Set Operator 2,,RandaoConfig,_operator2,Operator 2 Address,address,,,,,onlyManagerMultiSig,SetOperator2,,
+Randao Configuration,setBountyKeeper,Set Bounty Keeper,,RandaoConfig,_bountyKeeper,Bounty Keeper Address,address,,,,,onlyManagerMultiSig,SetBountyKeeper,,
