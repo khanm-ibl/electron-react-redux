@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 import Ionicon from 'react-ionicons'
 import PropTypes from 'prop-types'
 import { UPLOAD_KEYSTORE_MESSAGE } from '../../../constants/message-titles'
 import './style.scss'
 
-class ImportKeystore extends Component {
-  render () {
+class ImportKeystore extends PureComponent {
+  render() {
     const {
       handleReadKeyStoreFile,
       handleFileError,

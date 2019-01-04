@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import { readFile } from '../../../utils/file-handler'
-import ImportKeystore from '../../components/ImportKeyStore'
-import InputPassword from '../../components/InputPassword'
+import { ImportKeystore, InputPassword } from '../../components-shared'
 import connect from './store'
 
 const errMessages = require('../../../constants/error-messages')
 
-class Login extends Component {
+class ImportAccount extends Component {
   constructor (props) {
     super(props)
     this.state = {
@@ -83,4 +82,4 @@ class Login extends Component {
   }
 }
 
-export default connect(Login)
+export default connect(ImportAccount)
