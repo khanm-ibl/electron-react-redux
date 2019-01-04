@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 import { HashRouter as Router, Route } from "react-router-dom"
 import Routes from "./Routes"
 import { Provider } from 'react-redux'
-import ConfigureStore from './states/store'
+import ConfigureStore from './states/configs'
 
 const rootEl = document.getElementById('root')
 
