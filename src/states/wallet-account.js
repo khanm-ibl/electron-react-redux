@@ -3,14 +3,16 @@ import Config from '../configs'
 import EthereumCore from '../utils/ethereum-core'
 
 // Constants
-export const AUTH_SIGNIN = 'USER/AUTH_SIGNIN'
-export const AUTH_SIGNOUT = 'USER/AUTH_SIGNOUT'
-export const AUTH_SERVERERROR = 'USER/AUTH_SERVERERROR'
-export const USER_UPDATE_INFO = 'USER_UPDATE_INFO'
+export const WALLET_ACCOUNT_UPDATE_WALLET_INFO = 'WALLET_ACCOUNT_UPDATE_WALLET_INFO'
 
 // Handlers
 const handlers = {}
 
+/**
+ * Check roles
+ * @param {Object} keyStore 
+ * @param {String} password 
+ */
 handlers.checkRole = (keyStore, password) => {
   setTimeout ( async() => {
     try {
@@ -36,14 +38,17 @@ handlers.checkRole = (keyStore, password) => {
 
 // Initial State
 const initialState = {
-  user: null,
-  authenticated: false,
-  error: null
+  walletInfo: null
 }
 
 // Reducer
 const reducer = (state = initialState, action) => {
   switch (action.type) {
+    case WALLET_ACCOUNT_UPDATE_WALLET_INFO:
+    return {
+      ...state,
+      walletInfo: action.walletInfo
+    }
     default:
       return state
   }
@@ -52,23 +57,13 @@ const reducer = (state = initialState, action) => {
 // Action creators
 const actionCreators = {}
 
-actionCreators.signIn = user => ({ type: AUTH_SIGNIN, user })
-actionCreators.signOut = () => ({ type: AUTH_SIGNOUT })
-actionCreators.updateUserInfo = user => ({ type: USER_UPDATE_INFO, user })
+actionCreators.updateWalletInfo = walletInfo => ({type: WALLET_ACCOUNT_UPDATE_WALLET_INFO, walletInfo})
 
 // Discpatchers
 const dispatchers = {}
 
-dispatchers.signIn = user => {
-  localstorage.willSetAccessUser(user)
-  return actionCreators.signIn(user)
+dispatchers.updateWalletInfo = walletInfo => {
+  return actionCreators.updateWalletInfo(walletInfo)
 }
-
-dispatchers.signOut = () => {
-  localstorage.willRemoveAccessUser()
-  return actionCreators.signOut()
-}
-
-dispatchers.updateUserInfo = user => actionCreators.updateUserInfo(user)
 
 export { actionCreators, reducer, dispatchers, handlers }

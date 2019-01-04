@@ -1,6 +1,3 @@
-import exchangeRate from './constants/exchangeRate.config'
-import price from './constants/price.config'
-import feeRate from './constants/feeRate.config'
 import appConfigs from './app.configs'
 import ServerConfigs from './server.configs'
 import menuData from './menu.data'
@@ -18,9 +15,6 @@ const config = {
   tesnet: false,
   appConfigs,
   serverConfigs,
-  exchangeRate,
-  price,
-  feeRate,
   remoteSetting: {},
   menuData,
   ext: extConfig

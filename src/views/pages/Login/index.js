@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-// import Loader from '../../components/shared/Loader'
 import { readFile } from '../../../utils/file-handler'
 import ImportKeystore from '../../components/ImportKeyStore'
 import InputPassword from '../../components/InputPassword'
+import connect from './store'
 
 const errMessages = require('../../../constants/error-messages')
 
@@ -46,7 +46,17 @@ class Login extends Component {
     e.target.value = ''
   }
 
-  handleSubmit (password) {
+  async handleSubmit (password) {
+    const { actions, handlers } = this.props
+    const { keyStore } = this.state
+
+    const res = handlers.checkRole(keyStore, password)
+
+    if (res) {
+      actions.updateWalletInfo(res)
+    } else {
+      // TODO: Handle check role error
+    }
   }
 
   render () {
@@ -73,4 +83,4 @@ class Login extends Component {
   }
 }
 
-export default Login
+export default connect(Login)

@@ -19,7 +19,7 @@ do
     *--Choosing: GAME , ENVIRONMENT, ROLE, PLATFORM && BUILD NUMBER to excute:
     *--LOTTO_6_49:1 LOTTO_5_45: 2
     *--TEST_RPC:1 DEV_COMMERCIAL: 2
-    *--MANAGER:1 DIRECTOR:2 OPERATOR: 3 RANDAO_OPERATOR1: 4 RANDAO_OPERATOR2: 5 BOUNTY_KEEPER: 6
+    *--MANAGER:1 DIRECTOR:2 OPERATOR: 3 RANDAO_OPERATOR1: 4 RANDAO_OPERATOR2: 5
     *--ALL:1 MAC ONLY:2
     "
   printLineStars
@@ -39,7 +39,7 @@ done
 CONFIG_GAME=('lotto-6-49' 'lotto-5-45')
 CONFIG_EVNS=('TEST_RPC' 'DEV_COMMERCIAL')
 CONFIG_CONTRACTS=('test_rpc' 'dev_commercial')
-TOOLS_MANAGER=('manager' 'director' 'operator' 'operator1' 'operator2' 'bounty-keeper')
+TOOLS_MANAGER=('manager' 'director' 'operator' 'operator1' 'operator2')
 
 # create .env file
 
